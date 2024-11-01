@@ -1,10 +1,8 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-
-    },
     " and " : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -15,6 +13,7 @@
       }
     },
     ", " : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -24,10 +23,8 @@
         }
       }
     },
-    "/%@" : {
-
-    },
     "%@ ensures your history, reputation and actions are not lost, but remain confidential and under your control." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -37,10 +34,8 @@
         }
       }
     },
-    "%@ participants" : {
-
-    },
     "%@ RMO" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -49,9 +44,6 @@
           }
         }
       }
-    },
-    "%@ years old" : {
-
     },
     "%@ Years Old" : {
       "extractionState" : "stale",
@@ -65,6 +57,7 @@
       }
     },
     "%@, Age: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -76,16 +69,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@, вік: %2$@"
-          }
-        }
-      }
-    },
-    "%@%@ %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@%2$@ %3$@"
           }
         }
       }
@@ -107,38 +90,8 @@
         }
       }
     },
-    "%lld" : {
-
-    },
-    "%lld days left" : {
-
-    },
-    "%lld extra referrals" : {
-
-    },
-    "%lldm %llds" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lldm %2$llds"
-          }
-        }
-      }
-    },
-    "1. Save passport data on your device" : {
-
-    },
-    "2. Send the saved file to the email address below" : {
-
-    },
-    "3. When we support your country, you will be notified in the app" : {
-
-    },
-    "About the reward program" : {
-
-    },
     "Account" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -148,19 +101,8 @@
         }
       }
     },
-    "Account Locked" : {
-
-    },
-    "Active" : {
-
-    },
-    "Active tasks" : {
-
-    },
-    "Add a Document" : {
-
-    },
     "Address" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -171,6 +113,7 @@
       }
     },
     "Address: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -180,13 +123,8 @@
         }
       }
     },
-    "Afghanistan" : {
-
-    },
-    "Age" : {
-
-    },
     "Airdrop" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -196,16 +134,8 @@
         }
       }
     },
-    "Aland Islands" : {
-
-    },
-    "Albania" : {
-
-    },
-    "Algeria" : {
-
-    },
     "All Done!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -215,10 +145,8 @@
         }
       }
     },
-    "American Samoa" : {
-
-    },
     "Amount" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -228,28 +156,8 @@
         }
       }
     },
-    "Amount must be greater than 0" : {
-
-    },
-    "An error has occured, please try again" : {
-
-    },
-    "Andorra" : {
-
-    },
-    "Angola" : {
-
-    },
-    "Anguilla" : {
-
-    },
-    "Antarctica" : {
-
-    },
-    "Antigua and Barbuda" : {
-
-    },
     "App Icon" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -260,6 +168,7 @@
       }
     },
     "App version: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -270,6 +179,7 @@
       }
     },
     "Applying Zero Knowledge" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -279,25 +189,8 @@
         }
       }
     },
-    "Argentina" : {
-
-    },
-    "Armenia" : {
-
-    },
-    "Aruba" : {
-
-    },
-    "ASSETS (%lld)" : {
-
-    },
-    "Australia" : {
-
-    },
-    "Austria" : {
-
-    },
     "Auth Method" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -308,6 +201,7 @@
       }
     },
     "Authenticating with passport..." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -317,10 +211,8 @@
         }
       }
     },
-    "Authenticating with passport...\n\n%@" : {
-
-    },
     "Authentication Failed" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -342,6 +234,7 @@
       }
     },
     "Available:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -351,31 +244,8 @@
         }
       }
     },
-    "Azerbaijan" : {
-
-    },
-    "Back up manually" : {
-
-    },
-    "Back up with iCloud" : {
-
-    },
-    "Back up your account" : {
-
-    },
-    "Backup already exists, try restore instead" : {
-
-    },
-    "Bahamas" : {
-
-    },
-    "Bahrain" : {
-
-    },
-    "Balance" : {
-
-    },
     "Balance: RMO" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -384,30 +254,6 @@
           }
         }
       }
-    },
-    "Bangladesh" : {
-
-    },
-    "Barbados" : {
-
-    },
-    "Become an ambassador" : {
-
-    },
-    "Belarus" : {
-
-    },
-    "Belgium" : {
-
-    },
-    "Belize" : {
-
-    },
-    "Benin" : {
-
-    },
-    "Bermuda" : {
-
     },
     "Beta launch" : {
       "extractionState" : "stale",
@@ -420,10 +266,8 @@
         }
       }
     },
-    "Bhutan" : {
-
-    },
     "Birth date" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -434,6 +278,7 @@
       }
     },
     "Black" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -444,6 +289,7 @@
       }
     },
     "Black & Green" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -454,6 +300,7 @@
       }
     },
     "Black & White" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -463,40 +310,8 @@
         }
       }
     },
-    "Bolivia" : {
-
-    },
-    "Bonaire" : {
-
-    },
-    "Bosnia and Herzegovina" : {
-
-    },
-    "Botswana" : {
-
-    },
-    "Bouvet Island" : {
-
-    },
-    "Brazil" : {
-
-    },
-    "British Indian Ocean Territory" : {
-
-    },
-    "Brunei Darussalam" : {
-
-    },
-    "Bulgaria" : {
-
-    },
-    "Burkina Faso" : {
-
-    },
-    "Burundi" : {
-
-    },
     "By checking this box, you are agreeing to " : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -506,16 +321,8 @@
         }
       }
     },
-    "By checking this box, you are agreeing to share the data groups of the passport and the government signature" : {
-
-    },
-    "Cabo Verde" : {
-
-    },
-    "Cambodia" : {
-
-    },
     "Camera Permission" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -525,13 +332,8 @@
         }
       }
     },
-    "Cameroon" : {
-
-    },
-    "Canada" : {
-
-    },
     "Cancel" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -542,6 +344,7 @@
       }
     },
     "CARD VISUAL" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -551,25 +354,8 @@
         }
       }
     },
-    "Cayman Islands" : {
-
-    },
-    "Central African Republic" : {
-
-    },
-    "Chad" : {
-
-    },
-    "Chile" : {
-
-    },
-    "China" : {
-
-    },
-    "Christmas Island" : {
-
-    },
     "Claim" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -580,6 +366,7 @@
       }
     },
     "Claim %lld RMO tokens" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -589,16 +376,8 @@
         }
       }
     },
-    "Claim amount" : {
-
-    },
-    "Claim RMO" : {
-
-    },
-    "Claiming tokens results in a downgrade on the leaderboard" : {
-
-    },
     "Claiming..." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -609,6 +388,7 @@
       }
     },
     "Close" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -618,22 +398,8 @@
         }
       }
     },
-    "Cocos Islands" : {
-
-    },
-    "Colombia" : {
-
-    },
-    "Comoros" : {
-
-    },
-    "Confirm" : {
-
-    },
-    "Congo" : {
-
-    },
     "Congrats!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -643,10 +409,8 @@
         }
       }
     },
-    "Connection error. Please try again." : {
-
-    },
     "Continue" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -656,10 +420,8 @@
         }
       }
     },
-    "Cook Islands" : {
-
-    },
     "Copied" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -670,6 +432,7 @@
       }
     },
     "Copy to clipboard" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -679,13 +442,8 @@
         }
       }
     },
-    "Costa Rica" : {
-
-    },
-    "Cote d'Ivoire" : {
-
-    },
     "Could not authenticate with Face ID. Please try again." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -695,10 +453,8 @@
         }
       }
     },
-    "Create a new identity" : {
-
-    },
     "Create Account" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -708,13 +464,8 @@
         }
       }
     },
-    "Create Incognito ID" : {
-
-    },
-    "Create your digital identity" : {
-
-    },
     "Creating a confidential profile" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -725,6 +476,7 @@
       }
     },
     "Creating an incognito profile" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -734,22 +486,8 @@
         }
       }
     },
-    "Croatia" : {
-
-    },
-    "Cuba" : {
-
-    },
-    "Curacao" : {
-
-    },
-    "Cyprus" : {
-
-    },
-    "Czechia" : {
-
-    },
     "Dark Mode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -760,6 +498,7 @@
       }
     },
     "Data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -770,6 +509,7 @@
       }
     },
     "Data generates an incognito profile" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -780,6 +520,7 @@
       }
     },
     "Data never leaves this device" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -789,31 +530,8 @@
         }
       }
     },
-    "Date of birth (dd/mm/yy)" : {
-
-    },
-    "Date of expiry (dd/mm/yy)" : {
-
-    },
-    "Delete Account" : {
-
-    },
-    "Delete your account?" : {
-
-    },
-    "Democratic People's Republic of Korea" : {
-
-    },
-    "Democratic Republic of the Congo" : {
-
-    },
-    "Denmark" : {
-
-    },
-    "Djibouti" : {
-
-    },
     "Document class mode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -824,6 +542,7 @@
       }
     },
     "Document data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -834,6 +553,7 @@
       }
     },
     "Document ID" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -843,16 +563,8 @@
         }
       }
     },
-    "Document ID (AB123456)" : {
-
-    },
-    "Dominica" : {
-
-    },
-    "Dominican Republic" : {
-
-    },
     "Done" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -863,6 +575,7 @@
       }
     },
     "Downloading data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -872,19 +585,8 @@
         }
       }
     },
-    "Earn more rewards" : {
-
-    },
-    "Ecuador" : {
-
-    },
-    "Egypt" : {
-
-    },
-    "El Salvador" : {
-
-    },
     "Enable" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -895,6 +597,7 @@
       }
     },
     "Enable\nFace ID" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -905,6 +608,7 @@
       }
     },
     "Enable\nPasscode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -915,6 +619,7 @@
       }
     },
     "Enable Face ID in Settings > RariMe." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -925,6 +630,7 @@
       }
     },
     "Enable Face ID Login" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -935,6 +641,7 @@
       }
     },
     "Enable Passcode Login" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -945,6 +652,7 @@
       }
     },
     "English" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -954,13 +662,8 @@
         }
       }
     },
-    "Enter" : {
-
-    },
-    "Enter amount" : {
-
-    },
     "Enter Passcode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -970,13 +673,8 @@
         }
       }
     },
-    "Equatorial Guinea" : {
-
-    },
-    "Eritrea" : {
-
-    },
     "Error" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -986,22 +684,8 @@
         }
       }
     },
-    "Estonia" : {
-
-    },
-    "Eswatini" : {
-
-    },
-    "Ethiopia" : {
-
-    },
-    "Exclusive campaigns" : {
-
-    },
-    "Exp: %@" : {
-
-    },
     "Expiry date" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1012,6 +696,7 @@
       }
     },
     "Export Keys" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1022,6 +707,7 @@
       }
     },
     "Face ID" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1032,6 +718,7 @@
       }
     },
     "Face ID Disabled" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1042,6 +729,7 @@
       }
     },
     "Failed" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1051,25 +739,8 @@
         }
       }
     },
-    "Failed to register, try again later" : {
-
-    },
-    "Failed to verify code, try again later" : {
-
-    },
-    "Failed, %lld attempts left" : {
-
-    },
-    "Falkland Islands" : {
-
-    },
-    "Faroe Islands" : {
-
-    },
-    "Fee" : {
-
-    },
     "Female" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1079,13 +750,8 @@
         }
       }
     },
-    "Fiji" : {
-
-    },
-    "Fill Manually" : {
-
-    },
     "Finalizing" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1095,52 +761,8 @@
         }
       }
     },
-    "Finland" : {
-
-    },
-    "France" : {
-
-    },
-    "French Guiana" : {
-
-    },
-    "French Polynesia" : {
-
-    },
-    "French Southern Territories" : {
-
-    },
-    "From" : {
-
-    },
-    "From a reserved pool to a wallet" : {
-
-    },
-    "Gabon" : {
-
-    },
-    "Gambia" : {
-
-    },
-    "Generate Proof" : {
-
-    },
-    "Generates new keys" : {
-
-    },
-    "Generating..." : {
-
-    },
-    "Georgia" : {
-
-    },
-    "Germany" : {
-
-    },
-    "Get in touch" : {
-
-    },
     "Get Rewarded" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1150,16 +772,8 @@
         }
       }
     },
-    "Get Started" : {
-
-    },
-    "Ghana" : {
-
-    },
-    "Gibraltar" : {
-
-    },
     "Go Incognito" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1169,10 +783,8 @@
         }
       }
     },
-    "Greece" : {
-
-    },
     "Green" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1183,6 +795,7 @@
       }
     },
     "Green & Black" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1191,39 +804,6 @@
           }
         }
       }
-    },
-    "Greenland" : {
-
-    },
-    "Grenada" : {
-
-    },
-    "Guadeloupe" : {
-
-    },
-    "Guam" : {
-
-    },
-    "Guatemala" : {
-
-    },
-    "Guernsey" : {
-
-    },
-    "Guinea" : {
-
-    },
-    "Guinea-Bissau" : {
-
-    },
-    "Guyana" : {
-
-    },
-    "Haiti" : {
-
-    },
-    "Heard Island and McDonald Islands" : {
-
     },
     "Hold your iPhone near an NFC enabled passport." : {
       "extractionState" : "stale",
@@ -1236,58 +816,8 @@
         }
       }
     },
-    "Hold your iPhone near an NFC enabled passport.\n" : {
-
-    },
-    "Holy See" : {
-
-    },
-    "Honduras" : {
-
-    },
-    "Hong Kong" : {
-
-    },
-    "HOW CAN I GET A CODE?" : {
-
-    },
-    "HOW CAN I GET THE INVITE CODE?" : {
-
-    },
-    "HOW TO SHARE" : {
-
-    },
-    "Hungary" : {
-
-    },
-    "Iceland" : {
-
-    },
-    "iCloud is not available" : {
-
-    },
-    "ID" : {
-
-    },
-    "Identifiers" : {
-
-    },
-    "Identity creation happens via a scan of your biometric passport.\n\nYour data never leaves the device or is shared with any third party. Proof of citizenship is generated locally using Zero-Knowledge technology." : {
-
-    },
-    "If you lose access to the device or private keys, you won’t be able to claim future rewards using the same passport" : {
-
-    },
-    "If you would like to enroll your country in the early phase, we will need your consent to share some data. Enrolling your country’s passports will entitle you to additional rewards" : {
-
-    },
-    "Import JSON" : {
-
-    },
-    "INCOGNITO ID" : {
-
-    },
     "Incognito mode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1296,30 +826,6 @@
           }
         }
       }
-    },
-    "India" : {
-
-    },
-    "Indonesia" : {
-
-    },
-    "Insufficient balance" : {
-
-    },
-    "Internet connection is unstable" : {
-
-    },
-    "Invalid address" : {
-
-    },
-    "Invalid HTTP status code: %lld" : {
-
-    },
-    "Invalid invitation code" : {
-
-    },
-    "Invalid private key" : {
-
     },
     "Invalid Rarimo address" : {
       "extractionState" : "stale",
@@ -1332,44 +838,8 @@
         }
       }
     },
-    "Invalid response body" : {
-
-    },
-    "Invite Friends" : {
-
-    },
-    "Invite more people, earn more rewards" : {
-
-    },
-    "Invite to RariMe" : {
-
-    },
-    "Invited %lld/%lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Invited %1$lld/%2$lld"
-          }
-        }
-      }
-    },
-    "Iran" : {
-
-    },
-    "Iraq" : {
-
-    },
-    "Ireland" : {
-
-    },
-    "Isle of Man" : {
-
-    },
-    "Israel" : {
-
-    },
     "Issuing state code" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1378,18 +848,6 @@
           }
         }
       }
-    },
-    "Italy" : {
-
-    },
-    "Jamaica" : {
-
-    },
-    "Japan" : {
-
-    },
-    "Jersey" : {
-
     },
     "Join a waitlist" : {
       "extractionState" : "stale",
@@ -1402,22 +860,6 @@
         }
       }
     },
-    "Join RariMe with my invite code: %@\n\n%@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Join RariMe with my invite code: %1$@\n\n%2$@"
-          }
-        }
-      }
-    },
-    "Join Rewards Program" : {
-
-    },
-    "Join the program" : {
-
-    },
     "Join the waitlist" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1429,25 +871,8 @@
         }
       }
     },
-    "Jordan" : {
-
-    },
-    "Kazakhstan" : {
-
-    },
-    "Kenya" : {
-
-    },
-    "Kiribati" : {
-
-    },
-    "Kuwait" : {
-
-    },
-    "Kyrgyzstan" : {
-
-    },
     "Language" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1456,18 +881,6 @@
           }
         }
       }
-    },
-    "Laos" : {
-
-    },
-    "Latvia" : {
-
-    },
-    "Leaderboard" : {
-
-    },
-    "Learn how to scan passport correctly" : {
-
     },
     "Learn more about RariMe App" : {
       "extractionState" : "stale",
@@ -1480,25 +893,8 @@
         }
       }
     },
-    "Learn more about the App" : {
-
-    },
-    "Learn more about the program" : {
-
-    },
-    "Lebanon" : {
-
-    },
-    "Lesotho" : {
-
-    },
-    "Let's Scan" : {
-
-    },
-    "Let's Start" : {
-
-    },
     "Let’s Start" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1508,22 +904,8 @@
         }
       }
     },
-    "Level %lld" : {
-
-    },
-    "Leveling" : {
-
-    },
-    "Liberia" : {
-
-    },
-    "Libya" : {
-
-    },
-    "Liechtenstein" : {
-
-    },
     "Light Mode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1533,37 +915,8 @@
         }
       }
     },
-    "Light Verification" : {
-
-    },
-    "Limited time events" : {
-
-    },
-    "Lithuania" : {
-
-    },
-    "Luxembourg" : {
-
-    },
-    "Macao" : {
-
-    },
-    "Madagascar" : {
-
-    },
-    "Make sure you remove the case from the device" : {
-
-    },
-    "Malawi" : {
-
-    },
-    "Malaysia" : {
-
-    },
-    "Maldives" : {
-
-    },
     "Male" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1573,25 +926,8 @@
         }
       }
     },
-    "Mali" : {
-
-    },
-    "Malta" : {
-
-    },
-    "Marshall Islands" : {
-
-    },
-    "Martinique" : {
-
-    },
-    "Mauritania" : {
-
-    },
-    "Mauritius" : {
-
-    },
     "MAX" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1602,6 +938,7 @@
       }
     },
     "Maybe Later" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1611,37 +948,8 @@
         }
       }
     },
-    "Mayotte" : {
-
-    },
-    "Mexico" : {
-
-    },
-    "Micronesia" : {
-
-    },
-    "Moldova" : {
-
-    },
-    "Monaco" : {
-
-    },
-    "Mongolia" : {
-
-    },
-    "Montenegro" : {
-
-    },
-    "Montserrat" : {
-
-    },
-    "More than 1 tag was found. Please present only 1 tag." : {
-
-    },
-    "Morocco" : {
-
-    },
     "Move your passport page inside the border" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1650,12 +958,6 @@
           }
         }
       }
-    },
-    "Mozambique" : {
-
-    },
-    "MRZ Key not valid for this document." : {
-
     },
     "Must data" : {
       "extractionState" : "stale",
@@ -1668,13 +970,8 @@
         }
       }
     },
-    "Myanmar" : {
-
-    },
-    "Namibia" : {
-
-    },
     "Nationality" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1684,25 +981,8 @@
         }
       }
     },
-    "Nauru" : {
-
-    },
-    "Need passport scan" : {
-
-    },
-    "Nepal" : {
-
-    },
-    "Netherlands" : {
-
-    },
-    "New Caledonia" : {
-
-    },
-    "New Zealand" : {
-
-    },
     "Next" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1713,6 +993,7 @@
       }
     },
     "NFC Reader" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1722,34 +1003,8 @@
         }
       }
     },
-    "Nicaragua" : {
-
-    },
-    "Niger" : {
-
-    },
-    "Nigeria" : {
-
-    },
-    "Niue" : {
-
-    },
-    "No" : {
-
-    },
-    "No active tasks" : {
-
-    },
-    "No backup found in iCloud" : {
-
-    },
-    "No internet connection" : {
-
-    },
-    "No notifications" : {
-
-    },
     "No transactions yet" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1759,22 +1014,8 @@
         }
       }
     },
-    "Norfolk Island" : {
-
-    },
-    "North Macedonia" : {
-
-    },
-    "Northern Mariana Islands" : {
-
-    },
-    "Norway" : {
-
-    },
-    "Notifications" : {
-
-    },
     "Okay" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1784,19 +1025,8 @@
         }
       }
     },
-    "Oman" : {
-
-    },
-    "One of our services is down, try again later. RequestURL=%@" : {
-
-    },
-    "Only level %lld specials" : {
-
-    },
-    "Open App Store" : {
-
-    },
     "Open Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1805,9 +1035,6 @@
           }
         }
       }
-    },
-    "Operation completed successfully" : {
-
     },
     "Other passport holders" : {
       "extractionState" : "stale",
@@ -1820,28 +1047,8 @@
         }
       }
     },
-    "Pakistan" : {
-
-    },
-    "Palau" : {
-
-    },
-    "Palestine" : {
-
-    },
-    "Panama" : {
-
-    },
-    "Papua New Guinea" : {
-
-    },
-    "Paraguay" : {
-
-    },
-    "Participate and get rewarded: https://rarime.com" : {
-
-    },
     "Passcode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1852,6 +1059,7 @@
       }
     },
     "Passcodes do not match" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1861,10 +1069,8 @@
         }
       }
     },
-    "Passport is already registered" : {
-
-    },
     "Passport read successfully" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1874,22 +1080,8 @@
         }
       }
     },
-    "Passport scanned" : {
-
-    },
-    "Peru" : {
-
-    },
-    "Philippines" : {
-
-    },
-    "Pitcairn" : {
-
-    },
-    "PLACE" : {
-
-    },
     "Place QR code within the frame to scan" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1900,6 +1092,7 @@
       }
     },
     "Place your passport cover to the back of your phone" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1909,10 +1102,8 @@
         }
       }
     },
-    "Play video tutorial" : {
-
-    },
     "Please allow camera access in settings to continue" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1922,10 +1113,8 @@
         }
       }
     },
-    "Please fill these fields" : {
-
-    },
     "Please store the private key safely and do not share it with anyone. If you lose this key, you will not be able to recover the account and will lose access forever." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1936,6 +1125,7 @@
       }
     },
     "Please try again later" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1945,10 +1135,8 @@
         }
       }
     },
-    "Please wait" : {
-
-    },
     "Please Wait..." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1958,16 +1146,8 @@
         }
       }
     },
-    "Please, scan your passport one more time to revoke your previous registration" : {
-
-    },
-    "Poland" : {
-
-    },
-    "Portugal" : {
-
-    },
     "Privacy Policy" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1978,6 +1158,7 @@
       }
     },
     "Processing" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1988,6 +1169,7 @@
       }
     },
     "Profile" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2008,10 +1190,8 @@
         }
       }
     },
-    "Proof Request" : {
-
-    },
     "Proofs" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2022,6 +1202,7 @@
       }
     },
     "Prove your eligibility, belonging, identity, and contributions — all without revealing your personal details." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2042,13 +1223,8 @@
         }
       }
     },
-    "Puerto Rico" : {
-
-    },
-    "Qatar" : {
-
-    },
     "RARIME" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2059,6 +1235,7 @@
       }
     },
     "RariMe ensures your history, reputation and actions are not lost, and remain under your control." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2068,13 +1245,8 @@
         }
       }
     },
-    "RariMe Event" : {
-
-    },
-    "RariMe Event: %@\n\nParticipate and get rewarded: https://rarime.com" : {
-
-    },
     "RariMe General Terms & Conditions" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2085,6 +1257,7 @@
       }
     },
     "RariMe is a self-custody identity wallet where no personal data ever leaves the device and everything is processed locally." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2095,6 +1268,7 @@
       }
     },
     "RariMe Privacy Notice" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2104,10 +1278,8 @@
         }
       }
     },
-    "RariMe Rewards" : {
-
-    },
     "Rarimo Airdrop Program Terms & Conditions" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2117,25 +1289,13 @@
         }
       }
     },
-    "Re-activate old profile" : {
-
-    },
     "Reading Passport data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Зчитування даних паспорта"
-          }
-        }
-      }
-    },
-    "Reading passport data (%@)...\n\n%@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Reading passport data (%1$@)...\n\n%2$@"
           }
         }
       }
@@ -2152,6 +1312,7 @@
       }
     },
     "Receive" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2160,12 +1321,6 @@
           }
         }
       }
-    },
-    "Receive %@" : {
-
-    },
-    "Receive rewards for using RariMe app" : {
-
     },
     "Receive RMO" : {
       "extractionState" : "stale",
@@ -2179,6 +1334,7 @@
       }
     },
     "Receiver gets" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2188,10 +1344,8 @@
         }
       }
     },
-    "Remove Case" : {
-
-    },
     "Repeat Passcode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2201,106 +1355,8 @@
         }
       }
     },
-    "Republic of Korea" : {
-
-    },
-    "Reserve" : {
-
-    },
-    "Reserve %@ RMO tokens" : {
-
-    },
-    "Reserve tokens" : {
-
-    },
-    "Reserve tokens to unlock new levels and rewards" : {
-
-    },
-    "Reserved" : {
-
-    },
-    "RESERVED" : {
-
-    },
-    "Reserved RMO" : {
-
-    },
-    "Reserving..." : {
-
-    },
-    "Restore manually" : {
-
-    },
-    "Restore with iCloud" : {
-
-    },
-    "Restore your account" : {
-
-    },
-    "Reunion" : {
-
-    },
-    "Review Transaction" : {
-
-    },
-    "Rewards" : {
-
-    },
-    "Rewards limit reached" : {
-
-    },
-    "RMO tokens will be exclusively distributed via the RariMe app. To claim tokens, create an incognito profile using your biometric passport. Depending on which country issued the passport, you’ll either be able to claim a token right away or be put on a waitlist.\n\nIf you are added to the waitlist it means that you are eligible to claim tokens in the next wave of airdrops. The app will notify you when you are added.\n\nCertain jurisdictions are excluded from the reward program: %@" : {
-
-    },
-    "Romania" : {
-
-    },
-    "Russian Federation" : {
-
-    },
-    "Rwanda" : {
-
-    },
-    "Saint Barthelemy" : {
-
-    },
-    "Saint Helena" : {
-
-    },
-    "Saint Kitts and Nevis" : {
-
-    },
-    "Saint Lucia" : {
-
-    },
-    "Saint Martin" : {
-
-    },
-    "Saint Pierre and Miquelon" : {
-
-    },
-    "Saint Vincent and the Grenadines" : {
-
-    },
-    "Samoa" : {
-
-    },
-    "San Marino" : {
-
-    },
-    "Sao Tome and Principe" : {
-
-    },
-    "Saudi Arabia" : {
-
-    },
-    "Save to files" : {
-
-    },
-    "Save your passport data" : {
-
-    },
     "Scan" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2310,10 +1366,8 @@
         }
       }
     },
-    "Scan passport" : {
-
-    },
     "Scan QR" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2323,10 +1377,8 @@
         }
       }
     },
-    "Scan your passport" : {
-
-    },
     "Scan your Passport" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2336,16 +1388,8 @@
         }
       }
     },
-    "Scan Your Passport" : {
-
-    },
-    "Scan your passport’s first page inside the border" : {
-
-    },
-    "Select an authorization method" : {
-
-    },
     "Send" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2354,9 +1398,6 @@
           }
         }
       }
-    },
-    "Send %@" : {
-
     },
     "Send RMO" : {
       "extractionState" : "stale",
@@ -2369,16 +1410,8 @@
         }
       }
     },
-    "Sending..." : {
-
-    },
-    "Senegal" : {
-
-    },
-    "Serbia" : {
-
-    },
     "Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2388,13 +1421,8 @@
         }
       }
     },
-    "Seychelles" : {
-
-    },
-    "Share Achievements" : {
-
-    },
     "Shows two identifiers on the card" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2404,16 +1432,8 @@
         }
       }
     },
-    "Sierra Leone" : {
-
-    },
-    "Singapore" : {
-
-    },
-    "Sint Maarten" : {
-
-    },
     "Skip" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2423,35 +1443,8 @@
         }
       }
     },
-    "Slovakia" : {
-
-    },
-    "Slovenia" : {
-
-    },
-    "Solomon Islands" : {
-
-    },
-    "Somalia" : {
-
-    },
-    "Some passports have a problem with chip scans" : {
-
-    },
-    "Something went wrong" : {
-
-    },
-    "Sorry, there was a problem reading the passport. %@. Error codes: [0x%u, 0x%u]" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Sorry, there was a problem reading the passport. %1$@. Error codes: [0x%2$u, 0x%3$u]"
-          }
-        }
-      }
-    },
     "Sorry, there was a problem reading the passport. Please try again" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2461,25 +1454,8 @@
         }
       }
     },
-    "South Africa" : {
-
-    },
-    "South Georgia and the South Sandwich Islands" : {
-
-    },
-    "South Sudan" : {
-
-    },
-    "Spain" : {
-
-    },
-    "Sri Lanka" : {
-
-    },
-    "Staking" : {
-
-    },
     "Start building your incognito profile and earn rewards as an early community member." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2488,9 +1464,6 @@
           }
         }
       }
-    },
-    "Start journey to unlock rewards" : {
-
     },
     "Starting in July" : {
       "extractionState" : "stale",
@@ -2504,6 +1477,7 @@
       }
     },
     "Step %lld/%lld" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2519,28 +1493,8 @@
         }
       }
     },
-    "Success" : {
-
-    },
-    "Sudan" : {
-
-    },
-    "Suriname" : {
-
-    },
-    "Svalbard and Jan Mayen" : {
-
-    },
-    "Sweden" : {
-
-    },
-    "Switzerland" : {
-
-    },
-    "Syrian Arab Republic" : {
-
-    },
     "System" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2550,19 +1504,8 @@
         }
       }
     },
-    "Tag not valid." : {
-
-    },
-    "Taiwan" : {
-
-    },
-    "Tajikistan" : {
-
-    },
-    "Tanzania" : {
-
-    },
     "Terms of Use" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2572,10 +1515,8 @@
         }
       }
     },
-    "Thailand" : {
-
-    },
     "Thanks!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2584,9 +1525,6 @@
           }
         }
       }
-    },
-    "The app’s rewards program is invite-only. Get invited by an authorized user or ask a community member for an invite code." : {
-
     },
     "The beta launch is focused on distributing tokens to Ukrainian citizens" : {
       "extractionState" : "stale",
@@ -2598,9 +1536,6 @@
           }
         }
       }
-    },
-    "The passport is in the allowlist" : {
-
     },
     "The rewards program will allow you to receive weekly airdrops.\n\nYou can earn additional rewards by using RariMe’s incognito proofs with other ecosystem apps." : {
       "extractionState" : "stale",
@@ -2614,6 +1549,7 @@
       }
     },
     "Theme" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2623,10 +1559,8 @@
         }
       }
     },
-    "This action is irreversible and will delete all your data." : {
-
-    },
     "This airdrop is part of a humanitarian effort to help direct funds towards Ukraine." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2648,6 +1582,7 @@
       }
     },
     "This app is where you privately store your digital identities, enabling you to go incognito across the web." : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2657,31 +1592,8 @@
         }
       }
     },
-    "Timor-Leste" : {
-
-    },
-    "To" : {
-
-    },
-    "To continue, please install the latest version of the app" : {
-
-    },
-    "Togo" : {
-
-    },
-    "Tokelau" : {
-
-    },
-    "Tonga" : {
-
-    },
-    "Total %@" : {
-
-    },
-    "Total Balance" : {
-
-    },
     "Transactions" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2691,31 +1603,8 @@
         }
       }
     },
-    "Trinidad and Tobago" : {
-
-    },
-    "Tunisia" : {
-
-    },
-    "Turkey" : {
-
-    },
-    "Turkmenistan" : {
-
-    },
-    "Turks and Caicos Islands" : {
-
-    },
-    "Tuvalu" : {
-
-    },
-    "Uganda" : {
-
-    },
-    "Ukraine" : {
-
-    },
     "Ukrainian" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2724,36 +1613,6 @@
           }
         }
       }
-    },
-    "Unfortunately, these passports are not eligible for rewards. However, you can use your incognito ID for other upcoming mini apps." : {
-
-    },
-    "Uniqueness" : {
-
-    },
-    "United Arab Emirates" : {
-
-    },
-    "United Kingdom" : {
-
-    },
-    "United States" : {
-
-    },
-    "Unknown" : {
-
-    },
-    "Unknown Country" : {
-
-    },
-    "Unknown service error" : {
-
-    },
-    "Unsupported country" : {
-
-    },
-    "Unsupported for rewards" : {
-
     },
     "Upcoming airdrops will include citizens from all over the world.\n\nCreate an incognito profile by scanning your passport, and we will notify you when you become eligible." : {
       "extractionState" : "stale",
@@ -2766,52 +1625,8 @@
         }
       }
     },
-    "Update app" : {
-
-    },
-    "Uruguay" : {
-
-    },
-    "Used" : {
-
-    },
-    "User creation failed" : {
-
-    },
-    "Uses pregenerated keys or iClould" : {
-
-    },
-    "Uzbekistan" : {
-
-    },
-    "Vanuatu" : {
-
-    },
-    "Venezuela" : {
-
-    },
-    "Verification..." : {
-
-    },
-    "Verify" : {
-
-    },
-    "Vietnam" : {
-
-    },
-    "Virgin Islands, British" : {
-
-    },
-    "Virgin Islands, U.S." : {
-
-    },
-    "Waitlist country" : {
-
-    },
-    "Waitlist passport" : {
-
-    },
     "Wallet" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2820,9 +1635,6 @@
           }
         }
       }
-    },
-    "Wallis and Futuna" : {
-
     },
     "We will notify when you become eligible" : {
       "extractionState" : "stale",
@@ -2835,10 +1647,8 @@
         }
       }
     },
-    "We’re working on a fix" : {
-
-    },
     "Welcome" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2848,10 +1658,8 @@
         }
       }
     },
-    "Western Sahara" : {
-
-    },
     "What is RariMe?" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2873,6 +1681,7 @@
       }
     },
     "White" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2881,12 +1690,6 @@
           }
         }
       }
-    },
-    "With RariMe, identity becomes private but verifiable." : {
-
-    },
-    "Withdraw the %@ token" : {
-
     },
     "Withdraw the RMO token" : {
       "extractionState" : "stale",
@@ -2899,18 +1702,6 @@
         }
       }
     },
-    "Yemen" : {
-
-    },
-    "Yes" : {
-
-    },
-    "YOU" : {
-
-    },
-    "You can restore your account using your iCloud backup or private key" : {
-
-    },
     "You can use the QR code or the wallet address to deposit the RMO token to your account" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -2922,34 +1713,8 @@
         }
       }
     },
-    "You can use the QR code or the wallet address to deposit the %@ token to your account" : {
-
-    },
-    "You entered wrong passcode.\nLoading time: %@" : {
-
-    },
-    "You have already reserved tokens" : {
-
-    },
-    "You must be invited or receive a code from social channels" : {
-
-    },
-    "You successfully registered your identity!" : {
-
-    },
-    "You will be notified once added" : {
-
-    },
-    "You will be notified once your country is added" : {
-
-    },
-    "You’re entitled for %@ RMO" : {
-
-    },
-    "You’ve earned %lld RMO" : {
-
-    },
     "You’ve joined the waitlist" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2970,22 +1735,8 @@
         }
       }
     },
-    "You’ve reserved %@ RMO tokens" : {
-
-    },
-    "Your account is not backed up. If you lose your device, you will lose access to your account" : {
-
-    },
-    "Your Address" : {
-
-    },
-    "Your internet connection is down" : {
-
-    },
-    "Your passport data will be saved on your device. You can share it with us to expedite the support of your passport." : {
-
-    },
     "Your passport proof is ready" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2995,10 +1746,8 @@
         }
       }
     },
-    "Your private key" : {
-
-    },
     "Your Private Key" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3018,12 +1767,6 @@
           }
         }
       }
-    },
-    "Zambia" : {
-
-    },
-    "Zimbabwe" : {
-
     }
   },
   "version" : "1.0"

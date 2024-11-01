@@ -14,9 +14,11 @@ class BN: Codable {
     }
     
     init(_ data: Data) {
-        var bytes = data.bytes
+        var dataAddress = data.withUnsafeBytes { ptr in
+            ptr.bindMemory(to: UInt8.self).baseAddress
+        }
         
-        bn = BN_bin2bn(&bytes, Int32(data.count), nil)
+        bn = BN_bin2bn(dataAddress, Int32(data.count), nil)
     }
     
     init(hex: String) throws {
