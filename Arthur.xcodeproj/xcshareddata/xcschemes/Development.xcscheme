@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE9E82B12BA881F400AAF885"
-               BuildableName = "Rarime.app"
-               BlueprintName = "Rarime"
-               ReferencedContainer = "container:Rarime.xcodeproj">
+               BuildableName = "Arthur.app"
+               BlueprintName = "Arthur"
+               ReferencedContainer = "container:Arthur.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE9E82B12BA881F400AAF885"
-            BuildableName = "Rarime.app"
-            BlueprintName = "Rarime"
-            ReferencedContainer = "container:Rarime.xcodeproj">
+            BuildableName = "Arthur.app"
+            BlueprintName = "Arthur"
+            ReferencedContainer = "container:Arthur.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE9E82B12BA881F400AAF885"
-            BuildableName = "Rarime.app"
-            BlueprintName = "Rarime"
-            ReferencedContainer = "container:Rarime.xcodeproj">
+            BuildableName = "Arthur.app"
+            BlueprintName = "Arthur"
+            ReferencedContainer = "container:Arthur.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

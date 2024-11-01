@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct RarimeApp: App {
+struct ArthurApp: App {
     var body: some Scene {
         WindowGroup {
             VStack {}

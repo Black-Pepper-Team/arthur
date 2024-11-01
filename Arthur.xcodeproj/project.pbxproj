@@ -10,7 +10,6 @@
 		560F0C342BD175EB00067054 /* LoggerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F0C332BD175EB00067054 /* LoggerUtil.swift */; };
 		561C3C432BAEE2D600FBB3B9 /* String+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C3C422BAEE2D600FBB3B9 /* String+Error.swift */; };
 		5655E42E2BD2C94F00B86C5C /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5655E42D2BD2C94F00B86C5C /* AppUserDefaults.swift */; };
-		568B4FE02BB70852001C9C74 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 568B4FDF2BB70852001C9C74 /* Localizable.xcstrings */; };
 		56AC03402BB06A2D00A34A00 /* Image+Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AC033F2BB06A2D00A34A00 /* Image+Icon.swift */; };
 		56E2D9322BD01E71006E725D /* NFCPassportReader in Frameworks */ = {isa = PBXBuildFile; productRef = 56E2D9312BD01E71006E725D /* NFCPassportReader */; };
 		C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71161B22CAAE3DB00ED41EA /* String+BigUInt.swift */; };
@@ -26,7 +25,7 @@
 		CE72102E2BD7F6780043DB7F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE72102D2BD7F6780043DB7F /* Alamofire */; };
 		CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7210322BD818020043DB7F /* Double+Rounded.swift */; };
 		CE9347732C205B340034885C /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = CE9347722C205B340034885C /* CachedAsyncImage */; };
-		CE9E82B62BA881F400AAF885 /* RarimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* RarimeApp.swift */; };
+		CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* ArthurApp.swift */; };
 		CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E82B92BA881F500AAF885 /* Assets.xcassets */; };
 		CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA03F092C7C7A17002F218A /* View+IsLoading.swift */; };
 		CEB5A2D02CD0E367000862E3 /* Identity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5A2CF2CD0E367000862E3 /* Identity.xcframework */; };
@@ -53,8 +52,7 @@
 		560F0C332BD175EB00067054 /* LoggerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerUtil.swift; sourceTree = "<group>"; };
 		561C3C422BAEE2D600FBB3B9 /* String+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Error.swift"; sourceTree = "<group>"; };
 		5655E42D2BD2C94F00B86C5C /* AppUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
-		568B4FDF2BB70852001C9C74 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		56A6C75D2BBC2FE900992562 /* Rarime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rarime.entitlements; sourceTree = "<group>"; };
+		56A6C75D2BBC2FE900992562 /* Arthur.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arthur.entitlements; sourceTree = "<group>"; };
 		56AC033F2BB06A2D00A34A00 /* Image+Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Icon.swift"; sourceTree = "<group>"; };
 		C71161B22CAAE3DB00ED41EA /* String+BigUInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BigUInt.swift"; sourceTree = "<group>"; };
 		CE3477612C78892F005E91FE /* View+Align.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Align.swift"; sourceTree = "<group>"; };
@@ -63,8 +61,8 @@
 		CE72101D2BD7BD9D0043DB7F /* Data+Utf8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Utf8.swift"; sourceTree = "<group>"; };
 		CE7210282BD7D0D10043DB7F /* String+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hex.swift"; sourceTree = "<group>"; };
 		CE7210322BD818020043DB7F /* Double+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Rounded.swift"; sourceTree = "<group>"; };
-		CE9E82B22BA881F400AAF885 /* Rarime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rarime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE9E82B52BA881F400AAF885 /* RarimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RarimeApp.swift; sourceTree = "<group>"; };
+		CE9E82B22BA881F400AAF885 /* Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9E82B52BA881F400AAF885 /* ArthurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurApp.swift; sourceTree = "<group>"; };
 		CE9E82B92BA881F500AAF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9E82E62BA89CE300AAF885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		CEA03F092C7C7A17002F218A /* View+IsLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+IsLoading.swift"; sourceTree = "<group>"; };
@@ -143,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC562122BD92804002D4954 /* Frameworks */,
-				CE9E82B42BA881F400AAF885 /* Rarime */,
+				CE9E82B42BA881F400AAF885 /* Arthur */,
 				CE9E82B32BA881F400AAF885 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,27 +149,26 @@
 		CE9E82B32BA881F400AAF885 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE9E82B22BA881F400AAF885 /* Rarime.app */,
+				CE9E82B22BA881F400AAF885 /* Arthur.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE9E82B42BA881F400AAF885 /* Rarime */ = {
+		CE9E82B42BA881F400AAF885 /* Arthur */ = {
 			isa = PBXGroup;
 			children = (
-				56A6C75D2BBC2FE900992562 /* Rarime.entitlements */,
+				56A6C75D2BBC2FE900992562 /* Arthur.entitlements */,
 				CE9E82E62BA89CE300AAF885 /* Info.plist */,
 				CE9E82C62BA8851B00AAF885 /* Code */,
 				CE9E82C42BA8850800AAF885 /* Resources */,
 			);
-			path = Rarime;
+			path = Arthur;
 			sourceTree = "<group>";
 		};
 		CE9E82C42BA8850800AAF885 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				CE9E82B92BA881F500AAF885 /* Assets.xcassets */,
-				568B4FDF2BB70852001C9C74 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -179,7 +176,7 @@
 		CE9E82C62BA8851B00AAF885 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				CE9E82B52BA881F400AAF885 /* RarimeApp.swift */,
+				CE9E82B52BA881F400AAF885 /* ArthurApp.swift */,
 				CE3CD3AF2C6CEBD3008313B8 /* Protocols */,
 				5655E4262BD2C3F500B86C5C /* Models */,
 				CE778B6F2BA9A73700B26485 /* Extensions */,
@@ -209,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE9E82B12BA881F400AAF885 /* Rarime */ = {
+		CE9E82B12BA881F400AAF885 /* Arthur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE9E82C02BA881F500AAF885 /* Build configuration list for PBXNativeTarget "Rarime" */;
+			buildConfigurationList = CE9E82C02BA881F500AAF885 /* Build configuration list for PBXNativeTarget "Arthur" */;
 			buildPhases = (
 				CE9E82AE2BA881F400AAF885 /* Sources */,
 				CE9E82AF2BA881F400AAF885 /* Frameworks */,
@@ -222,7 +219,7 @@
 			);
 			dependencies = (
 			);
-			name = Rarime;
+			name = Arthur;
 			packageProductDependencies = (
 				56E2D9312BD01E71006E725D /* NFCPassportReader */,
 				CE72102D2BD7F6780043DB7F /* Alamofire */,
@@ -232,8 +229,8 @@
 				CE9347722C205B340034885C /* CachedAsyncImage */,
 				CE61E8822C24240000940129 /* Semaphore */,
 			);
-			productName = Rarime;
-			productReference = CE9E82B22BA881F400AAF885 /* Rarime.app */;
+			productName = Arthur;
+			productReference = CE9E82B22BA881F400AAF885 /* Arthur.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE9E82AD2BA881F400AAF885 /* Build configuration list for PBXProject "Rarime" */;
+			buildConfigurationList = CE9E82AD2BA881F400AAF885 /* Build configuration list for PBXProject "Arthur" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +269,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE9E82B12BA881F400AAF885 /* Rarime */,
+				CE9E82B12BA881F400AAF885 /* Arthur */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */,
-				568B4FE02BB70852001C9C74 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +293,7 @@
 				56AC03402BB06A2D00A34A00 /* Image+Icon.swift in Sources */,
 				561C3C432BAEE2D600FBB3B9 /* String+Error.swift in Sources */,
 				CEFF68C12CB6AF46008769EA /* Encodable+json.swift in Sources */,
-				CE9E82B62BA881F400AAF885 /* RarimeApp.swift in Sources */,
+				CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */,
 				CEFF68B92CB692A7008769EA /* BN.swift in Sources */,
 				CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */,
 				560F0C342BD175EB00067054 /* LoggerUtil.swift in Sources */,
@@ -448,7 +444,7 @@
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Rarime/Rarime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Arthur/Arthur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7CLECN442;
@@ -498,7 +494,7 @@
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Rarime/Rarime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Arthur/Arthur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7CLECN442;
@@ -613,7 +609,7 @@
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Rarime/Rarime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Arthur/Arthur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7CLECN442;
@@ -721,7 +717,7 @@
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Rarime/Rarime.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Arthur/Arthur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7CLECN442;
@@ -767,7 +763,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE9E82AD2BA881F400AAF885 /* Build configuration list for PBXProject "Rarime" */ = {
+		CE9E82AD2BA881F400AAF885 /* Build configuration list for PBXProject "Arthur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE9E82BE2BA881F500AAF885 /* Debug (Development) */,
@@ -778,7 +774,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release (Development)";
 		};
-		CE9E82C02BA881F500AAF885 /* Build configuration list for PBXNativeTarget "Rarime" */ = {
+		CE9E82C02BA881F500AAF885 /* Build configuration list for PBXNativeTarget "Arthur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE9E82C12BA881F500AAF885 /* Debug (Development) */,
