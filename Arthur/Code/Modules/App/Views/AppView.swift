@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 
 struct AppView: View {
     var body: some View {
@@ -8,7 +7,7 @@ struct AppView: View {
         }
         .preferredColorScheme(.dark)
         .onAppear {
-            UIApplication.sharedApplication().idleTimerDisabled = true
+            UIApplication.shared.isIdleTimerDisabled = true
         }
     }
 }
