@@ -18,7 +18,7 @@ struct IntroView: View {
                 .frame(width: 100, height: 125)
                 .foregroundStyle(.white)
             Text("Arthur")
-                .font(.system(size: 50))
+                .font(.custom(Fonts.interBold, size: 50))
                 .bold()
                 .foregroundStyle(.white)
                 .padding()
@@ -36,16 +36,15 @@ struct IntroView: View {
             VStack {
                 ForEach(Self.infoTexts, id: \.self) { text in
                     Text(text)
-                        .font(.system(size: 18))
-                        .bold()
+                        .font(.custom(Fonts.interRegular, size: 16))
                         .foregroundStyle(.white)
                         .align(.leading)
                         .padding(.horizontal)
-                        .padding(.top, 10)
+                        .padding(.vertical, 5)
                 }
             }
         }
-        .frame(width: 350, height: 150)
+        .frame(width: 350, height: 140)
     }
 }
 

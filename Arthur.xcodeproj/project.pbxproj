@@ -18,6 +18,11 @@
 		CE3C6C0E2CD56992000D0481 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C0D2CD56992000D0481 /* AppView.swift */; };
 		CE3C6C112CD569AB000D0481 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C102CD569AB000D0481 /* IntroView.swift */; };
 		CE3C6C152CD5718E000D0481 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C142CD5718E000D0481 /* AppButton.swift */; };
+		CE3C6C1C2CD575C5000D0481 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3C6C192CD575C5000D0481 /* Inter-SemiBold.ttf */; };
+		CE3C6C1D2CD575C5000D0481 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3C6C172CD575C5000D0481 /* Inter-Medium.ttf */; };
+		CE3C6C1E2CD575C5000D0481 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3C6C182CD575C5000D0481 /* Inter-Regular.ttf */; };
+		CE3C6C1F2CD575C5000D0481 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3C6C162CD575C5000D0481 /* Inter-Bold.ttf */; };
+		CE3C6C212CD57618000D0481 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C202CD57614000D0481 /* Fonts.swift */; };
 		CE3CD3B12C6CEBEF008313B8 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CD3B02C6CEBEF008313B8 /* JSONCodable.swift */; };
 		CE61E8832C24240000940129 /* Semaphore in Frameworks */ = {isa = PBXBuildFile; productRef = CE61E8822C24240000940129 /* Semaphore */; };
 		CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */; };
@@ -64,6 +69,11 @@
 		CE3C6C0D2CD56992000D0481 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		CE3C6C102CD569AB000D0481 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		CE3C6C142CD5718E000D0481 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		CE3C6C162CD575C5000D0481 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		CE3C6C172CD575C5000D0481 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		CE3C6C182CD575C5000D0481 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		CE3C6C192CD575C5000D0481 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE3C6C202CD57614000D0481 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CE3CD3B02C6CEBEF008313B8 /* JSONCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
 		CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZkProof.swift; sourceTree = "<group>"; };
 		CE72101D2BD7BD9D0043DB7F /* Data+Utf8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Utf8.swift"; sourceTree = "<group>"; };
@@ -123,6 +133,7 @@
 		CE3C6C072CD568F0000D0481 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				CE3C6C202CD57614000D0481 /* Fonts.swift */,
 				CE3C6C082CD56928000D0481 /* Images.swift */,
 			);
 			path = Constants;
@@ -174,6 +185,25 @@
 				CE3C6C142CD5718E000D0481 /* AppButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE3C6C1A2CD575C5000D0481 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C162CD575C5000D0481 /* Inter-Bold.ttf */,
+				CE3C6C172CD575C5000D0481 /* Inter-Medium.ttf */,
+				CE3C6C182CD575C5000D0481 /* Inter-Regular.ttf */,
+				CE3C6C192CD575C5000D0481 /* Inter-SemiBold.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		CE3C6C1B2CD575C5000D0481 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C1A2CD575C5000D0481 /* Inter */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		CE3CD3AF2C6CEBD3008313B8 /* Protocols */ = {
@@ -232,6 +262,7 @@
 		CE9E82C42BA8850800AAF885 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE3C6C1B2CD575C5000D0481 /* Fonts */,
 				CE9E82B92BA881F500AAF885 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -347,6 +378,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3C6C1C2CD575C5000D0481 /* Inter-SemiBold.ttf in Resources */,
+				CE3C6C1D2CD575C5000D0481 /* Inter-Medium.ttf in Resources */,
+				CE3C6C1E2CD575C5000D0481 /* Inter-Regular.ttf in Resources */,
+				CE3C6C1F2CD575C5000D0481 /* Inter-Bold.ttf in Resources */,
 				CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +400,7 @@
 				CE3C6C092CD5692A000D0481 /* Images.swift in Sources */,
 				CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */,
 				CEFF68B92CB692A7008769EA /* BN.swift in Sources */,
+				CE3C6C212CD57618000D0481 /* Fonts.swift in Sources */,
 				CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */,
 				560F0C342BD175EB00067054 /* LoggerUtil.swift in Sources */,
 				CE3477622C78892F005E91FE /* View+Align.swift in Sources */,

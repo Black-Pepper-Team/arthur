@@ -20,8 +20,7 @@ struct AppButton: View {
                 RoundedRectangle(cornerRadius: 25)
                     .foregroundStyle(.customAppForeground)
                 Text(text)
-                    .font(.system(size: 20))
-                    .bold()
+                    .font(.custom(Fonts.interBold, size: 16))
                     .foregroundStyle(.white)
             }
             .frame(width: 350, height: 50)
