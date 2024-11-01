@@ -4,7 +4,7 @@ import SwiftUI
 struct ArthurApp: App {
     var body: some Scene {
         WindowGroup {
-            VStack {}
+            AppView()
         }
     }
 }

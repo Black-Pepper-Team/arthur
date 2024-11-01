@@ -14,6 +14,9 @@
 		56E2D9322BD01E71006E725D /* NFCPassportReader in Frameworks */ = {isa = PBXBuildFile; productRef = 56E2D9312BD01E71006E725D /* NFCPassportReader */; };
 		C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71161B22CAAE3DB00ED41EA /* String+BigUInt.swift */; };
 		CE3477622C78892F005E91FE /* View+Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3477612C78892F005E91FE /* View+Align.swift */; };
+		CE3C6C092CD5692A000D0481 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C082CD56928000D0481 /* Images.swift */; };
+		CE3C6C0E2CD56992000D0481 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C0D2CD56992000D0481 /* AppView.swift */; };
+		CE3C6C112CD569AB000D0481 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C102CD569AB000D0481 /* IntroView.swift */; };
 		CE3CD3B12C6CEBEF008313B8 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CD3B02C6CEBEF008313B8 /* JSONCodable.swift */; };
 		CE61E8832C24240000940129 /* Semaphore in Frameworks */ = {isa = PBXBuildFile; productRef = CE61E8822C24240000940129 /* Semaphore */; };
 		CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */; };
@@ -56,6 +59,9 @@
 		56AC033F2BB06A2D00A34A00 /* Image+Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Icon.swift"; sourceTree = "<group>"; };
 		C71161B22CAAE3DB00ED41EA /* String+BigUInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BigUInt.swift"; sourceTree = "<group>"; };
 		CE3477612C78892F005E91FE /* View+Align.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Align.swift"; sourceTree = "<group>"; };
+		CE3C6C082CD56928000D0481 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		CE3C6C0D2CD56992000D0481 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		CE3C6C102CD569AB000D0481 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		CE3CD3B02C6CEBEF008313B8 /* JSONCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
 		CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZkProof.swift; sourceTree = "<group>"; };
 		CE72101D2BD7BD9D0043DB7F /* Data+Utf8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Utf8.swift"; sourceTree = "<group>"; };
@@ -110,6 +116,46 @@
 				CEFF68B82CB692A7008769EA /* BN.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CE3C6C072CD568F0000D0481 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C082CD56928000D0481 /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE3C6C0A2CD56951000D0481 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C0F2CD5699D000D0481 /* Views */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		CE3C6C0B2CD5697A000D0481 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C0C2CD56984000D0481 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE3C6C0C2CD56984000D0481 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C0D2CD56992000D0481 /* AppView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE3C6C0F2CD5699D000D0481 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C6C102CD569AB000D0481 /* IntroView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CE3CD3AF2C6CEBD3008313B8 /* Protocols */ = {
@@ -177,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9E82B52BA881F400AAF885 /* ArthurApp.swift */,
+				CE3C6C072CD568F0000D0481 /* Constants */,
 				CE3CD3AF2C6CEBD3008313B8 /* Protocols */,
 				5655E4262BD2C3F500B86C5C /* Models */,
 				CE778B6F2BA9A73700B26485 /* Extensions */,
@@ -189,6 +236,8 @@
 		CE9E82C72BA8852700AAF885 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CE3C6C0B2CD5697A000D0481 /* App */,
+				CE3C6C0A2CD56951000D0481 /* Intro */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -292,7 +341,9 @@
 			files = (
 				56AC03402BB06A2D00A34A00 /* Image+Icon.swift in Sources */,
 				561C3C432BAEE2D600FBB3B9 /* String+Error.swift in Sources */,
+				CE3C6C0E2CD56992000D0481 /* AppView.swift in Sources */,
 				CEFF68C12CB6AF46008769EA /* Encodable+json.swift in Sources */,
+				CE3C6C092CD5692A000D0481 /* Images.swift in Sources */,
 				CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */,
 				CEFF68B92CB692A7008769EA /* BN.swift in Sources */,
 				CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */,
@@ -301,6 +352,7 @@
 				C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */,
 				CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */,
 				CE72101E2BD7BD9D0043DB7F /* Data+Utf8.swift in Sources */,
+				CE3C6C112CD569AB000D0481 /* IntroView.swift in Sources */,
 				CEFF68B72CB685C5008769EA /* Data+FindSubarrayIndex.swift in Sources */,
 				5655E42E2BD2C94F00B86C5C /* AppUserDefaults.swift in Sources */,
 				CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */,
@@ -453,15 +505,12 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Arthur;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NFCReaderUsageDescription = "You need to authenticate on your phone to unlock the app";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Used to read the MRZ from the document";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable Face ID Authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,15 +552,12 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Arthur;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NFCReaderUsageDescription = "You need to authenticate on your phone to unlock the app";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Used to read the MRZ from the document";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable Face ID Authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -618,15 +664,12 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Arthur;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NFCReaderUsageDescription = "You need to authenticate on your phone to unlock the app";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Used to read the MRZ from the document";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable Face ID Authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -726,15 +769,12 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Arthur;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NFCReaderUsageDescription = "You need to authenticate on your phone to unlock the app";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Used to read the MRZ from the document";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enable Face ID Authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
