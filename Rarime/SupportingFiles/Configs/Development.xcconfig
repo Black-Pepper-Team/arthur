@@ -1,0 +1,53 @@
+// MARK: General
+SLASH=/
+GENERAL_NOTIFICATION_TOPIC="rarime-stage"
+CLAIMABLE_NOTIFICATION_TOPIC = "rarime-rewardable-stage"
+
+// MARK: Intro
+PRIVACY_POLICY_URL = "https:${SLASH}/staging.rarime.com/privacy-notice.html"
+TERMS_OF_USE_URL = "https:${SLASH}/staging.rarime.com/general-terms.html"
+AIRDROP_TERMS_URL = "https:${SLASH}/staging.rarime.com/airdrop-terms.html"
+
+// MARK: API
+RELAYER_URL = "https:${SLASH}/api.orgs.app.stage.rarime.com"
+EVM_RPC_URL = "https:${SLASH}/rpc.evm.node1.mainnet-beta.rarimo.com"
+REGISTER_CONTRACT_ADDRESS = "0x1b0F076c8800c457CE734BA85aC8569284DD640A"
+CERTIFICATES_SMT_CONTRACT_ADDRESS = "0xb393B0F444fC849bC61E3285C6c38b1052520007"
+REGISTRATION_SMT_CONTRACT_ADDRESS = "0xc1534912902BBe8C54626e2D69288C76a843bc0E"
+STATE_KEEPER_CONTRACT_ADDRESS = "0x0Ca8340633e0D728db012D59bD543fD80dDabFC9"
+COSMOS_RPC_URL = "https:${SLASH}/rpc-api.node1.mainnet-beta.rarimo.com"
+POINTS_SERVICE_URL = "https:${SLASH}/api.orgs.app.stage.rarime.com"
+AUTHORIZE_URL = "https:${SLASH}/api.orgs.app.stage.rarime.com"
+REFERRAL_URL = "https:${SLASH}/app.stage.rarime.com/r"
+JOIN_REWARDS_KEY = "15690e4461abffc8a0057282af199b7345fa492d28ec1ae60049459389752e3ee714947cc64edcde3c5b25c10081a003d15a88cf137bcc97049da465781eff3c"
+LIGHT_SIGNATURE_PRIVATE_KEY = ""
+
+// MARK: Cosmos
+CHAIN_ID = "rarimo_42-1"
+DENOM = "stake"
+RPC_IP = "core-api.node1.mainnet-beta.rarimo.com:443"
+
+// MARK: CertificatesStorage
+MASTER_CERTIFICATES_BUCKETNAME = "rarimo-temp"
+MASTER_CERTIFICATES_FILENAME = "icaopkd-list.ldif"
+ICAO_COSMOS_RPC = "core-api.node1.mainnet-beta.rarimo.com:443"
+
+// MARK: Feedback
+FEEDBACK_EMAIL = "info@rarilabs.com"
+
+// MARK: CircuitsData
+CIRCUIT_DATA_URL_0 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.0/registerIdentity_1_256_3_5_576_248_NA-download.zip"
+CIRCUIT_DATA_URL_1 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.0/registerIdentity_1_256_3_6_576_248_1_2432_5_296-download.zip"
+CIRCUIT_DATA_URL_2 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.0/registerIdentity_2_256_3_6_336_264_21_2448_6_2008-download.zip"
+CIRCUIT_DATA_URL_3 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.0/registerIdentity_21_256_3_7_336_264_21_3072_6_2008-download.zip"
+CIRCUIT_DATA_URL_4 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.1/registerIdentity_1_256_3_6_576_264_1_2448_3_256-download.zip"
+CIRCUIT_DATA_URL_5 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.1/registerIdentity_2_256_3_6_336_248_1_2432_3_256-download.zip"
+CIRCUIT_DATA_URL_6 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.1/registerIdentity_2_256_3_6_576_248_1_2432_3_256-download.zip"
+CIRCUIT_DATA_URL_7 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.2/registerIdentity_11_256_3_3_576_248_1_1184_5_264-download.zip"
+CIRCUIT_DATA_URL_8 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.2/registerIdentity_12_256_3_3_336_232_NA-download.zip"
+CIRCUIT_DATA_URL_9 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.2/registerIdentity_1_256_3_4_336_232_1_1480_5_296-download.zip"
+CIRCUIT_DATA_URL_10 = "https:${SLASH}/storage.googleapis.com/rarimo-store/passport-zk-circuits/v0.2.2/registerIdentity_1_256_3_4_600_248_1_1496_3_256-download.zip"
+
+// MARK: AppsFlyer
+APPSFLYER_DEV_KEY = ""
+APPSFLYER_APP_ID = ""
