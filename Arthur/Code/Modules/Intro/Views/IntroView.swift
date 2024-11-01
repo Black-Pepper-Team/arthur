@@ -11,6 +11,7 @@ struct IntroView: View {
 
     var body: some View {
         VStack {
+            Spacer()
             Image(Images.shield)
                 .resizable()
                 .renderingMode(.template)
@@ -23,6 +24,8 @@ struct IntroView: View {
                 .padding()
             info
                 .padding()
+            Spacer()
+            AppButton(text: "Continue", action: onContinue)
         }
     }
 
