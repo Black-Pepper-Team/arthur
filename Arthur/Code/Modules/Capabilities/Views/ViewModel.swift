@@ -44,6 +44,8 @@ extension CapabilitiesView {
             )
 
             try await API.shared.sendAIPermission(aiPermission)
+
+            LoggerUtil.common.info("Sent AI permission for capability: \(capability.id)")
         }
     }
 }

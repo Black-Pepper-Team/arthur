@@ -23,8 +23,7 @@ struct CapabilitiesView: View {
         ScrollView {
             VStack {
                 ForEach(capabilities, id: \.id) { capability in
-                    CapabilityView(capability: capability) { _, _ in
-                    }
+                    CapabilityView(capability: capability, onEnable: viewModel.sendAIPermission)
                 }
             }
         }
@@ -58,8 +57,10 @@ struct CapabilityView: View {
                 }
                 .padding(.horizontal)
                 if isEnabled {
-                    AppTextField { _ in
+                    AppTextField { text in
                         isConfirmed = true
+
+                        onEnable(capability, text)
                     }
                 }
             }
