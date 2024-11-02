@@ -38,6 +38,9 @@
 		CE99CC2C2CD61FA600245B50 /* AICapabilitiesManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC2B2CD61F9900245B50 /* AICapabilitiesManifest.swift */; };
 		CE99CC2F2CD63E1400245B50 /* ProofManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC2E2CD63DFB00245B50 /* ProofManager.swift */; };
 		CE99CC312CD6473200245B50 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC302CD6472F00245B50 /* Config.swift */; };
+		CE99CC332CD6482B00245B50 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC322CD6482800245B50 /* API.swift */; };
+		CE99CC352CD6492100245B50 /* AIPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC342CD6491300245B50 /* AIPermission.swift */; };
+		CE99CC372CD649F800245B50 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC362CD649F800245B50 /* ViewModel.swift */; };
 		CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* ArthurApp.swift */; };
 		CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E82B92BA881F500AAF885 /* Assets.xcassets */; };
 		CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA03F092C7C7A17002F218A /* View+IsLoading.swift */; };
@@ -87,6 +90,9 @@
 		CE99CC2B2CD61F9900245B50 /* AICapabilitiesManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICapabilitiesManifest.swift; sourceTree = "<group>"; };
 		CE99CC2E2CD63DFB00245B50 /* ProofManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofManager.swift; sourceTree = "<group>"; };
 		CE99CC302CD6472F00245B50 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CE99CC322CD6482800245B50 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CE99CC342CD6491300245B50 /* AIPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPermission.swift; sourceTree = "<group>"; };
+		CE99CC362CD649F800245B50 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CE9E82B22BA881F400AAF885 /* Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E82B52BA881F400AAF885 /* ArthurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurApp.swift; sourceTree = "<group>"; };
 		CE9E82B92BA881F500AAF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 		5655E4262BD2C3F500B86C5C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC322CD6482800245B50 /* API.swift */,
 				CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */,
 				CEFF68B82CB692A7008769EA /* BN.swift */,
 			);
@@ -227,6 +234,7 @@
 		CE3C6C232CD57810000D0481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC362CD649F800245B50 /* ViewModel.swift */,
 				CE3C6C242CD5781E000D0481 /* CapabilitiesView.swift */,
 			);
 			path = Views;
@@ -260,6 +268,7 @@
 		CE99CC2A2CD61F9200245B50 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC342CD6491300245B50 /* AIPermission.swift */,
 				CE99CC2B2CD61F9900245B50 /* AICapabilitiesManifest.swift */,
 			);
 			path = Models;
@@ -443,8 +452,11 @@
 				CEFF68C12CB6AF46008769EA /* Encodable+json.swift in Sources */,
 				CE3C6C092CD5692A000D0481 /* Images.swift in Sources */,
 				CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */,
+				CE99CC372CD649F800245B50 /* ViewModel.swift in Sources */,
 				CEFF68B92CB692A7008769EA /* BN.swift in Sources */,
 				CE3C6C212CD57618000D0481 /* Fonts.swift in Sources */,
+				CE99CC352CD6492100245B50 /* AIPermission.swift in Sources */,
+				CE99CC332CD6482B00245B50 /* API.swift in Sources */,
 				CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */,
 				560F0C342BD175EB00067054 /* LoggerUtil.swift in Sources */,
 				CE99CC2C2CD61FA600245B50 /* AICapabilitiesManifest.swift in Sources */,

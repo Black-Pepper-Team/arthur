@@ -12,7 +12,7 @@ struct AppView: View {
                     isIntroShown = false
                 }
             } else {
-                VStack {}
+                CapabilitiesView()
             }
         }
         .onOpenURL(perform: handleOpenURL)
