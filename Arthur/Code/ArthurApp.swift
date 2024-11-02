@@ -5,6 +5,7 @@ struct ArthurApp: App {
     var body: some Scene {
         WindowGroup {
             AppView()
+                .environmentObject(ProofManager.shared)
         }
     }
 }

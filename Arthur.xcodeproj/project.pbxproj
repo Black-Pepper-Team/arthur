@@ -36,6 +36,7 @@
 		CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7210322BD818020043DB7F /* Double+Rounded.swift */; };
 		CE9347732C205B340034885C /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = CE9347722C205B340034885C /* CachedAsyncImage */; };
 		CE99CC2C2CD61FA600245B50 /* AICapabilitiesManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC2B2CD61F9900245B50 /* AICapabilitiesManifest.swift */; };
+		CE99CC2F2CD63E1400245B50 /* ProofManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC2E2CD63DFB00245B50 /* ProofManager.swift */; };
 		CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* ArthurApp.swift */; };
 		CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E82B92BA881F500AAF885 /* Assets.xcassets */; };
 		CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA03F092C7C7A17002F218A /* View+IsLoading.swift */; };
@@ -83,6 +84,7 @@
 		CE7210282BD7D0D10043DB7F /* String+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hex.swift"; sourceTree = "<group>"; };
 		CE7210322BD818020043DB7F /* Double+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Rounded.swift"; sourceTree = "<group>"; };
 		CE99CC2B2CD61F9900245B50 /* AICapabilitiesManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICapabilitiesManifest.swift; sourceTree = "<group>"; };
+		CE99CC2E2CD63DFB00245B50 /* ProofManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofManager.swift; sourceTree = "<group>"; };
 		CE9E82B22BA881F400AAF885 /* Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E82B52BA881F400AAF885 /* ArthurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurApp.swift; sourceTree = "<group>"; };
 		CE9E82B92BA881F500AAF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -260,6 +262,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		CE99CC2D2CD63DF500245B50 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE99CC2E2CD63DFB00245B50 /* ProofManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		CE9E82A92BA881F400AAF885 = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9E82B52BA881F400AAF885 /* ArthurApp.swift */,
+				CE99CC2D2CD63DF500245B50 /* Managers */,
 				CE3C6C072CD568F0000D0481 /* Constants */,
 				CE3CD3AF2C6CEBD3008313B8 /* Protocols */,
 				5655E4262BD2C3F500B86C5C /* Models */,
@@ -437,6 +448,7 @@
 				CE3477622C78892F005E91FE /* View+Align.swift in Sources */,
 				C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */,
 				CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */,
+				CE99CC2F2CD63E1400245B50 /* ProofManager.swift in Sources */,
 				CE72101E2BD7BD9D0043DB7F /* Data+Utf8.swift in Sources */,
 				CE3C6C252CD5781E000D0481 /* CapabilitiesView.swift in Sources */,
 				CE3C6C112CD569AB000D0481 /* IntroView.swift in Sources */,
