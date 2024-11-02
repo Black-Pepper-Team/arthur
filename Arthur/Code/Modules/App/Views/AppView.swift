@@ -4,6 +4,7 @@ struct AppView: View {
     @EnvironmentObject var proofManager: ProofManager
 
     @State private var isIntroShown = true
+    @State private var areCapabilitiesShown = AppUserDefaults.shared.areCapabilitiesShown
 
     var body: some View {
         ZStack {
@@ -11,8 +12,13 @@ struct AppView: View {
                 IntroView {
                     isIntroShown = false
                 }
+            } else if areCapabilitiesShown {
+                CapabilitiesView {
+                    AppUserDefaults.shared.areCapabilitiesShown = false
+                    areCapabilitiesShown = false
+                }
             } else {
-                CapabilitiesView()
+                VStack {}
             }
         }
         .onOpenURL(perform: handleOpenURL)

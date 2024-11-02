@@ -26,6 +26,7 @@ struct IntroView: View {
                 .padding()
             Spacer()
             AppButton(text: "Continue", action: onContinue)
+                .frame(width: 350, height: 50)
         }
     }
 

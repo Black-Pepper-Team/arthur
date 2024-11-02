@@ -23,7 +23,6 @@ struct AppButton: View {
                     .font(.custom(Fonts.interBold, size: 16))
                     .foregroundStyle(.white)
             }
-            .frame(width: 350, height: 50)
         }
         .buttonStyle(.plain)
         .disabled(isLocked)
@@ -32,4 +31,5 @@ struct AppButton: View {
 
 #Preview {
     AppButton(text: "Continue") {}
+        .frame(width: 350, height: 50)
 }
