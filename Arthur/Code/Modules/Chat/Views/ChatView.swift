@@ -47,6 +47,7 @@ struct ChatView: View {
                     MessageView(message: message)
                 }
             }
+            .defaultScrollAnchor(.bottom)
         }
     }
 }
