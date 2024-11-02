@@ -13,9 +13,10 @@ extension ChatView {
 
         func sendMessage(_ message: String) {
             let userId = AppUserDefaults.shared.userId
+            let messageId = UUID().uuidString
 
             messages.append(.init(
-                id: UUID().uuidString,
+                id: messageId,
                 userId: userId,
                 date: Date(),
                 message: message
@@ -24,6 +25,8 @@ extension ChatView {
             Task { @MainActor in
                 do {
                     try await API.shared.sendMessageToChat(.init(userId: userId, message: message))
+
+                    LoggerUtil.common.info("Message sent: \(messageId)")
                 } catch {
                     LoggerUtil.common.error("failed to send message: \(error.localizedDescription)")
                 }
