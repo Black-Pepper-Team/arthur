@@ -3,6 +3,8 @@ import Identity
 
 extension CapabilitiesView {
     class ViewModel: ObservableObject {
+        @Published var wasAtleastOneCapabilitySelected: Bool = false
+        
         @Published var capabilities: [AICapability] = []
 
         func requestAICapabilities() {

@@ -15,8 +15,10 @@ struct CapabilitiesView: View {
             Spacer()
             AppButton(text: "Continue", action: onContinue)
                 .frame(width: 350, height: 50)
+                .disabled(!viewModel.wasAtleastOneCapabilitySelected)
         }
         .onAppear(perform: viewModel.requestAICapabilities)
+        .environmentObject(viewModel)
     }
 
     func capabilitiesView(_ capabilities: [AICapability]) -> some View {
@@ -31,6 +33,8 @@ struct CapabilitiesView: View {
 }
 
 struct CapabilityView: View {
+    @EnvironmentObject private var viewModel: CapabilitiesView.ViewModel
+
     let capability: AICapability
 
     @State private var isEnabled: Bool = false
@@ -61,6 +65,8 @@ struct CapabilityView: View {
                 if isEnabled && !isConfirmed {
                     AppTextField(placeholder: "Money limit...", submitText: "Submit") { text in
                         isConfirmed = true
+
+                        self.viewModel.wasAtleastOneCapabilitySelected = true
 
                         onEnable(capability, text)
                     }
