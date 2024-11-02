@@ -10,16 +10,6 @@ struct AppView: View {
             if isIntroShown {
                 IntroView {
                     isIntroShown = false
-
-                    Task { @MainActor in
-                        do {
-                            let proof = try await proofManager.requestProof(Data(hex: "238744a30ccde4e057864280c37d2abd14dfa2ddd05db7d1eb3a88a31b7eb208")!)
-
-                            LoggerUtil.common.debug("\(proof.json.utf8)")
-                        } catch {
-                            LoggerUtil.common.error("error: \(error)")
-                        }
-                    }
                 }
             } else {
                 VStack {}
