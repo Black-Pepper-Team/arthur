@@ -1,4 +1,5 @@
 import Foundation
+import Identity
 
 extension CapabilitiesView {
     class ViewModel: ObservableObject {
@@ -27,9 +28,22 @@ extension CapabilitiesView {
         }
 
         func _sendAIPermission(_ capability: AICapability, _ moneyLimitStr: String) async throws {
-            let moneyLimit = Int(moneyLimitStr) ?? 0
+            var eventData: Data
+            if let contractAddress = capability.contractAddress {
+                let encoder = EncoderGoEncoder()
 
-            let proof = try await ProofManager.shared.requestProof(Data(hex: "2c3661391d3e579e831284041a0769dad216913663b14fa4919de598c6a0747c")!)
+                if let tokenAddress = capability.tokenAddress {
+                    eventData = try encoder.getEncodedData(contractAddress, ethValueStr: "0", tokenAddress: tokenAddress, tokenValueStr: moneyLimitStr)
+                } else {
+                    eventData = try encoder.getEncodedData(contractAddress, ethValueStr: moneyLimitStr, tokenAddress: "", tokenValueStr: "0")
+                }
+            } else {
+                eventData = Data(hex: "2c3661391d3e579e831284041a0769dad216913663b14fa4919de598c6a0747c")!
+            }
+
+            let proof = try await ProofManager.shared.requestProof(eventData)
+
+            let moneyLimit = Int(moneyLimitStr) ?? 0
 
             let userId = proof.pubSignals[0]
 
