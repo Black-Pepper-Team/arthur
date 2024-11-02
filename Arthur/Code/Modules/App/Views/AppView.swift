@@ -18,7 +18,7 @@ struct AppView: View {
                     areCapabilitiesShown = false
                 }
             } else {
-                VStack {}
+                ChatView()
             }
         }
         .onOpenURL(perform: handleOpenURL)

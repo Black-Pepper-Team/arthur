@@ -2,16 +2,25 @@ import SwiftUI
 
 struct AppButton: View {
     let text: String
+
+    let shouldLockOnAction: Bool
+
     let action: () -> Void
 
-    let shouldLockOnAction: Bool = false
+    init(text: String, shouldLockOnAction: Bool = false, action: @escaping () -> Void) {
+        self.text = text
+        self.shouldLockOnAction = shouldLockOnAction
+        self.action = action
+    }
 
     @State private var isLocked: Bool = false
 
     var body: some View {
         Button(
             action: {
-                isLocked = true
+                if shouldLockOnAction {
+                    isLocked = true
+                }
 
                 action()
             }

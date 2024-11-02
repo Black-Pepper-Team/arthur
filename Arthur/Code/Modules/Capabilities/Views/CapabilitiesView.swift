@@ -59,11 +59,12 @@ struct CapabilityView: View {
                 }
                 .padding(.horizontal)
                 if isEnabled && !isConfirmed {
-                    AppTextField { text in
+                    AppTextField(placeholder: "Money limit...", submitText: "Submit") { text in
                         isConfirmed = true
 
                         onEnable(capability, text)
                     }
+                    .frame(width: 300, height: 40)
                 }
             }
         }

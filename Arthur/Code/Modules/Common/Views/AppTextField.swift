@@ -1,6 +1,9 @@
 import SwiftUI
 
 struct AppTextField: View {
+    var placeholder: String
+    var submitText: String
+
     let onCommit: (String) -> Void
     var keyBoardType: UIKeyboardType = .numberPad
 
@@ -10,20 +13,23 @@ struct AppTextField: View {
         HStack {
             TextField("", text: $text)
                 .placeholder(when: text.isEmpty) {
-                    Text("Money limit")
+                    Text(placeholder)
                         .foregroundStyle(.white)
                 }
-                .keyboardType(.numberPad)
+                .keyboardType(keyBoardType)
                 .foregroundStyle(.white)
-            AppButton(text: "Submit") {
-                onCommit(text)
+            AppButton(text: submitText, shouldLockOnAction: false) {
+                let textToSubmit = text
+
+                text = ""
+
+                onCommit(textToSubmit)
             }
-            .frame(width: 100, height: 50)
+            .frame(width: 90, height: 50)
         }
-        .frame(width: 300, height: 40)
     }
 }
 
 #Preview {
-    AppTextField { _ in }
+    AppTextField(placeholder: "Money limit", submitText: "Submit") { _ in }
 }

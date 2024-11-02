@@ -43,10 +43,10 @@
 		CE99CC372CD649F800245B50 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC362CD649F800245B50 /* ViewModel.swift */; };
 		CE99CC392CD6521D00245B50 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC382CD651E800245B50 /* AppTextField.swift */; };
 		CE99CC3B2CD6543D00245B50 /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC3A2CD6543700245B50 /* View+Placeholder.swift */; };
+		CE99CC3F2CD6601E00245B50 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC3E2CD6601900245B50 /* ChatView.swift */; };
 		CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* ArthurApp.swift */; };
 		CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E82B92BA881F500AAF885 /* Assets.xcassets */; };
 		CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA03F092C7C7A17002F218A /* View+IsLoading.swift */; };
-		CEB5A2D02CD0E367000862E3 /* Identity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5A2CF2CD0E367000862E3 /* Identity.xcframework */; };
 		CEC562192BD92B3E002D4954 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC562132BD9281A002D4954 /* libresolv.9.tbd */; };
 		CEFF68B72CB685C5008769EA /* Data+FindSubarrayIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF68B62CB685C5008769EA /* Data+FindSubarrayIndex.swift */; };
 		CEFF68B92CB692A7008769EA /* BN.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF68B82CB692A7008769EA /* BN.swift */; };
@@ -97,12 +97,12 @@
 		CE99CC362CD649F800245B50 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CE99CC382CD651E800245B50 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 		CE99CC3A2CD6543700245B50 /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
+		CE99CC3E2CD6601900245B50 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		CE9E82B22BA881F400AAF885 /* Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E82B52BA881F400AAF885 /* ArthurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurApp.swift; sourceTree = "<group>"; };
 		CE9E82B92BA881F500AAF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9E82E62BA89CE300AAF885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		CEA03F092C7C7A17002F218A /* View+IsLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+IsLoading.swift"; sourceTree = "<group>"; };
-		CEB5A2CF2CD0E367000862E3 /* Identity.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Identity.xcframework; sourceTree = "<group>"; };
 		CEC562132BD9281A002D4954 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		CEC562142BD9281A002D4954 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		CEFF68B62CB685C5008769EA /* Data+FindSubarrayIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+FindSubarrayIndex.swift"; sourceTree = "<group>"; };
@@ -122,7 +122,6 @@
 				CE61E8832C24240000940129 /* Semaphore in Frameworks */,
 				56E2D9322BD01E71006E725D /* NFCPassportReader in Frameworks */,
 				CE68BE472BD9B6EA00D92EBB /* Web3ContractABI in Frameworks */,
-				CEB5A2D02CD0E367000862E3 /* Identity.xcframework in Frameworks */,
 				CE68BE492BD9B6EA00D92EBB /* Web3PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +287,22 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		CE99CC3C2CD6600C00245B50 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CE99CC3D2CD6601300245B50 /* Views */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		CE99CC3D2CD6601300245B50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE99CC3E2CD6601900245B50 /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CE9E82A92BA881F400AAF885 = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +358,7 @@
 		CE9E82C72BA8852700AAF885 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC3C2CD6600C00245B50 /* Chat */,
 				CE3C6C222CD57809000D0481 /* Capabilities */,
 				CE3C6C122CD57179000D0481 /* Common */,
 				CE3C6C0B2CD5697A000D0481 /* App */,
@@ -354,7 +370,6 @@
 		CEC562122BD92804002D4954 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEB5A2CF2CD0E367000862E3 /* Identity.xcframework */,
 				CEC562132BD9281A002D4954 /* libresolv.9.tbd */,
 				CEC562142BD9281A002D4954 /* libresolv.tbd */,
 			);
@@ -472,6 +487,7 @@
 				CE99CC312CD6473200245B50 /* Config.swift in Sources */,
 				C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */,
 				CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */,
+				CE99CC3F2CD6601E00245B50 /* ChatView.swift in Sources */,
 				CE99CC2F2CD63E1400245B50 /* ProofManager.swift in Sources */,
 				CE72101E2BD7BD9D0043DB7F /* Data+Utf8.swift in Sources */,
 				CE3C6C252CD5781E000D0481 /* CapabilitiesView.swift in Sources */,
