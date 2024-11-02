@@ -40,13 +40,15 @@
 		CE99CC312CD6473200245B50 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC302CD6472F00245B50 /* Config.swift */; };
 		CE99CC332CD6482B00245B50 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC322CD6482800245B50 /* API.swift */; };
 		CE99CC352CD6492100245B50 /* AIPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC342CD6491300245B50 /* AIPermission.swift */; };
-		CE99CC372CD649F800245B50 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC362CD649F800245B50 /* ViewModel.swift */; };
+		CE99CC372CD649F800245B50 /* CapabilitiesView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC362CD649F800245B50 /* CapabilitiesView+ViewModel.swift */; };
 		CE99CC392CD6521D00245B50 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC382CD651E800245B50 /* AppTextField.swift */; };
 		CE99CC3B2CD6543D00245B50 /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC3A2CD6543700245B50 /* View+Placeholder.swift */; };
 		CE99CC3F2CD6601E00245B50 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC3E2CD6601900245B50 /* ChatView.swift */; };
 		CE99CC442CD6762500245B50 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC432CD6762500245B50 /* SettingsView.swift */; };
 		CE99CC462CD67A3F00245B50 /* Identity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99CC452CD67A3F00245B50 /* Identity.xcframework */; };
 		CE99CC482CD67CFC00245B50 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC472CD67CFA00245B50 /* AppManager.swift */; };
+		CE99CC502CD687C300245B50 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC4F2CD687C200245B50 /* Message.swift */; };
+		CE99CC532CD6888900245B50 /* ChatView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC522CD6888700245B50 /* ChatView+ViewModel.swift */; };
 		CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* ArthurApp.swift */; };
 		CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E82B92BA881F500AAF885 /* Assets.xcassets */; };
 		CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA03F092C7C7A17002F218A /* View+IsLoading.swift */; };
@@ -97,13 +99,15 @@
 		CE99CC302CD6472F00245B50 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		CE99CC322CD6482800245B50 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		CE99CC342CD6491300245B50 /* AIPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPermission.swift; sourceTree = "<group>"; };
-		CE99CC362CD649F800245B50 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CE99CC362CD649F800245B50 /* CapabilitiesView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CapabilitiesView+ViewModel.swift"; sourceTree = "<group>"; };
 		CE99CC382CD651E800245B50 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 		CE99CC3A2CD6543700245B50 /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
 		CE99CC3E2CD6601900245B50 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		CE99CC432CD6762500245B50 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CE99CC452CD67A3F00245B50 /* Identity.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Identity.xcframework; sourceTree = "<group>"; };
 		CE99CC472CD67CFA00245B50 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		CE99CC4F2CD687C200245B50 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CE99CC522CD6888700245B50 /* ChatView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatView+ViewModel.swift"; sourceTree = "<group>"; };
 		CE9E82B22BA881F400AAF885 /* Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E82B52BA881F400AAF885 /* ArthurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurApp.swift; sourceTree = "<group>"; };
 		CE9E82B92BA881F500AAF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -245,7 +249,7 @@
 		CE3C6C232CD57810000D0481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE99CC362CD649F800245B50 /* ViewModel.swift */,
+				CE99CC362CD649F800245B50 /* CapabilitiesView+ViewModel.swift */,
 				CE3C6C242CD5781E000D0481 /* CapabilitiesView.swift */,
 			);
 			path = Views;
@@ -307,6 +311,7 @@
 		CE99CC3D2CD6601300245B50 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC522CD6888700245B50 /* ChatView+ViewModel.swift */,
 				CE99CC3E2CD6601900245B50 /* ChatView.swift */,
 			);
 			path = Views;
@@ -315,6 +320,7 @@
 		CE99CC402CD6735800245B50 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC4F2CD687C200245B50 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -504,12 +510,13 @@
 				CE99CC3B2CD6543D00245B50 /* View+Placeholder.swift in Sources */,
 				56AC03402BB06A2D00A34A00 /* Image+Icon.swift in Sources */,
 				561C3C432BAEE2D600FBB3B9 /* String+Error.swift in Sources */,
+				CE99CC502CD687C300245B50 /* Message.swift in Sources */,
 				CE3C6C0E2CD56992000D0481 /* AppView.swift in Sources */,
 				CEFF68C12CB6AF46008769EA /* Encodable+json.swift in Sources */,
 				CE99CC392CD6521D00245B50 /* AppTextField.swift in Sources */,
 				CE3C6C092CD5692A000D0481 /* Images.swift in Sources */,
 				CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */,
-				CE99CC372CD649F800245B50 /* ViewModel.swift in Sources */,
+				CE99CC372CD649F800245B50 /* CapabilitiesView+ViewModel.swift in Sources */,
 				CEFF68B92CB692A7008769EA /* BN.swift in Sources */,
 				CE3C6C212CD57618000D0481 /* Fonts.swift in Sources */,
 				CE99CC352CD6492100245B50 /* AIPermission.swift in Sources */,
@@ -520,6 +527,7 @@
 				CE3477622C78892F005E91FE /* View+Align.swift in Sources */,
 				CE99CC312CD6473200245B50 /* Config.swift in Sources */,
 				CE99CC482CD67CFC00245B50 /* AppManager.swift in Sources */,
+				CE99CC532CD6888900245B50 /* ChatView+ViewModel.swift in Sources */,
 				C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */,
 				CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */,
 				CE99CC3F2CD6601E00245B50 /* ChatView.swift in Sources */,

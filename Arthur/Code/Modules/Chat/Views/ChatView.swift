@@ -3,11 +3,13 @@ import SwiftUI
 struct ChatView: View {
     @State private var isSettingsShown: Bool = false
 
+    @StateObject private var viewModel = ViewModel()
+
     var body: some View {
         VStack {
             header
             Spacer()
-            AppTextField(placeholder: "Message...", submitText: "Send", onCommit: onSend, keyBoardType: .default)
+            AppTextField(placeholder: "Message...", submitText: "Send", onCommit: viewModel.sendMessage, keyBoardType: .default)
                 .frame(width: 350, height: 40)
                 .padding(.horizontal)
                 .padding(.bottom, 10)
@@ -16,8 +18,6 @@ struct ChatView: View {
             SettingsView()
         }
     }
-
-    func onSend(_ message: String) {}
 
     var header: some View {
         ZStack {
