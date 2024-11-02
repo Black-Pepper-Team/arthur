@@ -39,7 +39,9 @@ struct CapabilityView: View {
     let onEnable: (AICapability, String) -> Void
 
     var height: CGFloat {
-        if isEnabled {
+        if isEnabled && isConfirmed {
+            return 50
+        } else if isEnabled {
             return 100
         } else {
             return 50
@@ -56,7 +58,7 @@ struct CapabilityView: View {
                         .font(.custom(Fonts.interBold, size: 20))
                 }
                 .padding(.horizontal)
-                if isEnabled {
+                if isEnabled && !isConfirmed {
                     AppTextField { text in
                         isConfirmed = true
 
