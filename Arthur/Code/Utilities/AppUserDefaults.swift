@@ -9,4 +9,7 @@ public class AppUserDefaults: ObservableObject {
 
     @AppStorage("are_capabilities_shown")
     public var areCapabilitiesShown: Bool = true
+
+    @AppStorage("is_text_to_speech_enable")
+    public var isTextToSpeechEnable: Bool = true
 }

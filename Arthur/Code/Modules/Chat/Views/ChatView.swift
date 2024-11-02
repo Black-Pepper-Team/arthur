@@ -21,6 +21,9 @@ struct ChatView: View {
         .sheet(isPresented: $isSettingsShown) {
             SettingsView()
         }
+        .onAppear {
+            AVManager.shared.textToSpeech(text: viewModel.messages.first?.message ?? "")
+        }
     }
 
     var header: some View {
