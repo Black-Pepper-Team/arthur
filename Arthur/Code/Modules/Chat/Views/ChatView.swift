@@ -11,6 +11,13 @@ struct ChatView: View {
             Spacer()
             messages
                 .padding(.vertical)
+            if viewModel.isWaitingForResponse {
+                ProgressView()
+                    .controlSize(.small)
+                    .align(.leading)
+                    .padding(.bottom, 5)
+                    .padding(.leading, 15)
+            }
             Divider()
                 .padding(.bottom, 5)
             AppTextField(placeholder: "Message...", submitText: "Send", onCommit: viewModel.sendMessage, keyBoardType: .default)
