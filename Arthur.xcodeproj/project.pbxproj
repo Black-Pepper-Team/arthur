@@ -290,6 +290,7 @@
 		CE99CC3C2CD6600C00245B50 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC402CD6735800245B50 /* Models */,
 				CE99CC3D2CD6601300245B50 /* Views */,
 			);
 			path = Chat;
@@ -301,6 +302,13 @@
 				CE99CC3E2CD6601900245B50 /* ChatView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE99CC402CD6735800245B50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CE9E82A92BA881F400AAF885 = {
