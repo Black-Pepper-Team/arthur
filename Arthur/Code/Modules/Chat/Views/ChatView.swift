@@ -13,7 +13,7 @@ struct ChatView: View {
                 .padding(.bottom, 10)
         }
         .sheet(isPresented: $isSettingsShown) {
-            VStack {}
+            SettingsView()
         }
     }
 
