@@ -7,6 +7,7 @@ struct SettingsView: View {
         VStack {
             Text("Settings")
                 .font(.custom(Fonts.interBold, size: 35))
+                .padding(.top)
             Spacer()
             AppButton(text: "Logout", action: clearAppdata)
                 .frame(width: 350, height: 50)
