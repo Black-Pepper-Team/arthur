@@ -9,6 +9,8 @@ struct ChatView: View {
         VStack {
             header
             Spacer()
+            messages
+                .padding(.vertical)
             AppTextField(placeholder: "Message...", submitText: "Send", onCommit: viewModel.sendMessage, keyBoardType: .default)
                 .frame(width: 350, height: 40)
                 .padding(.horizontal)
@@ -35,6 +37,50 @@ struct ChatView: View {
                 .align(.trailing)
                 .padding(.trailing)
                 .onTapGesture(perform: { isSettingsShown = true })
+        }
+    }
+
+    var messages: some View {
+        VStack {
+            ScrollView {
+                ForEach(viewModel.messages) { message in
+                    MessageView(message: message)
+                }
+            }
+        }
+    }
+}
+
+struct MessageView: View {
+    let message: Message
+
+    @State private var textSize: CGSize = .zero
+
+    var isSelf: Bool {
+        message.userId == AppUserDefaults.shared.userId
+    }
+
+    var body: some View {
+        VStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 25)
+                    .foregroundStyle(.customAppForeground)
+                    .frame(width: textSize.width + 10, height: textSize.height + 5)
+                Text(message.message)
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 15)
+                    .foregroundStyle(.white)
+                    .background(
+                        GeometryReader { geometry in
+                            Color.clear
+                                .onAppear {
+                                    textSize = geometry.size
+                                }
+                        }
+                    )
+            }
+            .frame(maxWidth: 350)
+            .align(isSelf ? .trailing : .leading)
         }
     }
 }
