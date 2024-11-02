@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @EnvironmentObject var appManager: AppManager
+
     var body: some View {
         VStack {
             Text("Settings")
@@ -13,10 +15,14 @@ struct SettingsView: View {
 
     func clearAppdata() {
         AppUserDefaults.shared.userId = ""
-        AppUserDefaults.shared.areCapabilitiesShown = false
+        AppUserDefaults.shared.areCapabilitiesShown = true
+
+        AppManager.shared.isIntroShown = true
+        AppManager.shared.areCapabilitiesShown = true
     }
 }
 
 #Preview {
     SettingsView()
+        .environmentObject(AppManager.shared)
 }

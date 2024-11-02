@@ -46,6 +46,7 @@
 		CE99CC3F2CD6601E00245B50 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC3E2CD6601900245B50 /* ChatView.swift */; };
 		CE99CC442CD6762500245B50 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC432CD6762500245B50 /* SettingsView.swift */; };
 		CE99CC462CD67A3F00245B50 /* Identity.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99CC452CD67A3F00245B50 /* Identity.xcframework */; };
+		CE99CC482CD67CFC00245B50 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99CC472CD67CFA00245B50 /* AppManager.swift */; };
 		CE9E82B62BA881F400AAF885 /* ArthurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E82B52BA881F400AAF885 /* ArthurApp.swift */; };
 		CE9E82BA2BA881F500AAF885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E82B92BA881F500AAF885 /* Assets.xcassets */; };
 		CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA03F092C7C7A17002F218A /* View+IsLoading.swift */; };
@@ -102,6 +103,7 @@
 		CE99CC3E2CD6601900245B50 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		CE99CC432CD6762500245B50 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CE99CC452CD67A3F00245B50 /* Identity.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Identity.xcframework; sourceTree = "<group>"; };
+		CE99CC472CD67CFA00245B50 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		CE9E82B22BA881F400AAF885 /* Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E82B52BA881F400AAF885 /* ArthurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurApp.swift; sourceTree = "<group>"; };
 		CE9E82B92BA881F500AAF885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 		CE99CC2D2CD63DF500245B50 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CE99CC472CD67CFA00245B50 /* AppManager.swift */,
 				CE99CC2E2CD63DFB00245B50 /* ProofManager.swift */,
 			);
 			path = Managers;
@@ -516,6 +519,7 @@
 				CE99CC2C2CD61FA600245B50 /* AICapabilitiesManifest.swift in Sources */,
 				CE3477622C78892F005E91FE /* View+Align.swift in Sources */,
 				CE99CC312CD6473200245B50 /* Config.swift in Sources */,
+				CE99CC482CD67CFC00245B50 /* AppManager.swift in Sources */,
 				C71161B32CAAE3DB00ED41EA /* String+BigUInt.swift in Sources */,
 				CE7210332BD818020043DB7F /* Double+Rounded.swift in Sources */,
 				CE99CC3F2CD6601E00245B50 /* ChatView.swift in Sources */,

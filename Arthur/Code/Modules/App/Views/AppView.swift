@@ -2,20 +2,18 @@ import SwiftUI
 
 struct AppView: View {
     @EnvironmentObject var proofManager: ProofManager
-
-    @State private var isIntroShown = true
-    @State private var areCapabilitiesShown = AppUserDefaults.shared.areCapabilitiesShown
+    @EnvironmentObject var appManager: AppManager
 
     var body: some View {
         ZStack {
-            if isIntroShown {
+            if appManager.isIntroShown {
                 IntroView {
-                    isIntroShown = false
+                    appManager.isIntroShown = false
                 }
-            } else if areCapabilitiesShown {
+            } else if appManager.areCapabilitiesShown {
                 CapabilitiesView {
                     AppUserDefaults.shared.areCapabilitiesShown = false
-                    areCapabilitiesShown = false
+                    appManager.areCapabilitiesShown = false
                 }
             } else {
                 ChatView()
@@ -45,4 +43,6 @@ struct AppView: View {
 
 #Preview {
     AppView()
+        .environmentObject(ProofManager.shared)
+        .environmentObject(AppManager.shared)
 }

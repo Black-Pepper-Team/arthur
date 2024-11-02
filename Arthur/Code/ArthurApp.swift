@@ -6,6 +6,7 @@ struct ArthurApp: App {
         WindowGroup {
             AppView()
                 .environmentObject(ProofManager.shared)
+                .environmentObject(AppManager.shared)
         }
     }
 }

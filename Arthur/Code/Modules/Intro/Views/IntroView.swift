@@ -4,7 +4,7 @@ struct IntroView: View {
     static let infoTexts = [
         "• Reliable AI Agent",
         "• User managed AI limitations",
-        "• Broad services suport"
+        "• Broad services support"
     ]
 
     var onContinue: () -> Void
