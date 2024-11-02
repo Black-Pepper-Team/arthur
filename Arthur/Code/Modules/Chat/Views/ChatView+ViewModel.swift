@@ -97,6 +97,8 @@ extension ChatView {
 
                     registerResponseMessage(message)
 
+                    return
+
                 case .pending:
                     continue
 
