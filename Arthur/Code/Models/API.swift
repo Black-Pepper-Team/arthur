@@ -38,4 +38,15 @@ class API {
             .result
             .get()
     }
+
+    func getMessageResponse(_ id: String) async throws -> MessageResponse {
+        let requestUrl = url.appendingPathComponent("/useragent/message/\(id)")
+
+        let response = try await AF.request(requestUrl)
+            .serializingDecodable(MessageResponse.self)
+            .result
+            .get()
+
+        return response
+    }
 }

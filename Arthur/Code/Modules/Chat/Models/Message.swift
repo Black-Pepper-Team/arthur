@@ -5,9 +5,11 @@ struct Message: Codable, Identifiable {
     let userId: String
     let date: Date
     let message: String
+    let isError: Bool
 }
 
 struct SendableMessage: Codable {
+    let id: String
     let userId: String
     let message: String
 }

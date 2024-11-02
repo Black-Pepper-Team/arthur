@@ -69,7 +69,7 @@ struct MessageView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25)
-                .foregroundStyle(.customAppForeground)
+                .foregroundStyle(message.isError ? .error : .customAppForeground)
                 .frame(width: textSize.width + 10, height: textSize.height + 5)
                 .opacity(isSelf ? 0.3 : 1)
             Text(message.message)

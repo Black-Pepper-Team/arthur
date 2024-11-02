@@ -10,7 +10,6 @@ struct SettingsView: View {
             Text("Settings")
                 .font(.custom(Fonts.interBold, size: 35))
                 .padding(.top)
-            Divider()
             Toggle(isOn: $isTextToSpeechEnabled) {
                 Text("Enable Text-to-Speech")
             }
@@ -29,6 +28,7 @@ struct SettingsView: View {
     func clearAppdata() {
         AppUserDefaults.shared.userId = ""
         AppUserDefaults.shared.areCapabilitiesShown = true
+        AppUserDefaults.shared.lastMessageId = ""
 
         AppManager.shared.isIntroShown = true
         AppManager.shared.areCapabilitiesShown = true
