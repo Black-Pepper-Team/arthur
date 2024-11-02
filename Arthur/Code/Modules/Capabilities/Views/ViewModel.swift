@@ -54,6 +54,7 @@ extension CapabilitiesView {
                 id: capability.id,
                 moneyLimit: moneyLimit,
                 contractAddress: capability.contractAddress,
+                tokenAddress: capability.tokenAddress,
                 proof: proof
             )
 

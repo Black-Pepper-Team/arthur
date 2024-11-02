@@ -5,5 +5,6 @@ struct AIPermission: Codable {
     let id: String
     let moneyLimit: Int
     let contractAddress: String?
+    let tokenAddress: String?
     let proof: ZkProof
 }

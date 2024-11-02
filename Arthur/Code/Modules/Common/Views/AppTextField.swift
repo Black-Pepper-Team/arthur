@@ -19,6 +19,10 @@ struct AppTextField: View {
                 .keyboardType(keyBoardType)
                 .foregroundStyle(.white)
             AppButton(text: submitText, shouldLockOnAction: false) {
+                if text.isEmpty {
+                    return
+                }
+
                 let textToSubmit = text
 
                 text = ""
