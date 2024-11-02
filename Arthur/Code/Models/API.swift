@@ -29,4 +29,13 @@ class API {
             .result
             .get()
     }
+
+    func sendMessageToChat(_ messsage: SendableMessage) async throws {
+        let requestUrl = url.appendingPathComponent("/useragent/message")
+
+        _ = try await AF.request(requestUrl, method: .post, parameters: messsage, encoder: JSONParameterEncoder.default)
+            .serializingData()
+            .result
+            .get()
+    }
 }

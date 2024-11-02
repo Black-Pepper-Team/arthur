@@ -6,3 +6,8 @@ struct Message: Codable, Identifiable {
     let date: Date
     let message: String
 }
+
+struct SendableMessage: Codable {
+    let userId: String
+    let message: String
+}
