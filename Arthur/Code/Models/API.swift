@@ -22,7 +22,7 @@ class API {
     }
 
     func sendAIPermission(_ permision: AIPermission) async throws {
-        let requestUrl = url.appendingPathComponent("permissions")
+        let requestUrl = url.appendingPathComponent("useragent/resources")
 
         _ = try await AF.request(requestUrl, method: .post, parameters: permision, encoder: JSONParameterEncoder.default)
             .serializingData()
