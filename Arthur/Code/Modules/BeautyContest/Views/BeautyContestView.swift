@@ -36,6 +36,7 @@ struct BeautyContestParticipatingView: View {
                 Text("Enter this contest of beauty without fear, for even Aphrodite shall not see your true form. Cloaked in secrecy, only your beauty is judged, while your true self remains hidden—safe from divine envy. Compete boldly, gaining admiration without the risk of being revealed.")
                     .font(.custom(Fonts.interRegular, size: 16))
                     .multilineTextAlignment(.center)
+                    .lineSpacing(2)
                     .padding(.horizontal, 10)
             }
             .frame(width: 350, height: 170)
