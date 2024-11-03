@@ -5,7 +5,7 @@ struct BeautyContestView: View {
 
     var body: some View {
         VStack {
-            if !viewModel.isParticipatingInBeautyContest {
+            if viewModel.isParticipatingInBeautyContest {
                 BeautyContestParticipatsView()
             } else {
                 BeautyContestParticipatingView()
@@ -28,7 +28,7 @@ struct BeautyContestParticipatsView: View {
                 .isLoading(viewModel.participants.isEmpty)
             Spacer()
         }
-        .onAppear()
+        .onAppear(perform: viewModel.loadParticipants)
     }
 
     var participantsView: some View {
@@ -36,6 +36,7 @@ struct BeautyContestParticipatsView: View {
             VStack {
                 ForEach(viewModel.participants, id: \.name) { participant in
                     participantView(participant)
+                        .padding(.bottom)
                 }
             }
         }
@@ -57,6 +58,7 @@ struct BeautyContestParticipatsView: View {
             (Text(participant.name) + Text(participant.name == viewModel.winner ? "🥇" : ""))
                 .font(.custom(Fonts.interBold, size: 20))
                 .lineLimit(1)
+            Divider()
         }
     }
 }

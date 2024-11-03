@@ -9,7 +9,7 @@ extension BeautyContestView {
         @Published var winner: String = ""
 
         @Published var participants: [BeautyContestParticipant] = [
-            .init(name: "Joe Biden", image: StaticImages.testImageBase64)
+            //            .init(name: "Joe Biden", image: StaticImages.testImageBase64)
         ]
 
         func loadParticipants() {
