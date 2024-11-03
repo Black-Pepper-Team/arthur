@@ -35,6 +35,7 @@ struct IntroView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 5)
                 .foregroundStyle(.customAppForeground)
+                .opacity(0.5)
             VStack {
                 ForEach(Self.infoTexts, id: \.self) { text in
                     Text(text)
