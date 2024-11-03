@@ -25,14 +25,14 @@ class BeautyContest {
     }
 
     func participants() async throws -> BeautyContestStats {
-        let requestUrl = url.appendingPathComponent("participants")
+        let requestUrl = url.appendingPathComponent("/integrations/face-extractor-svc/contest/winner")
 
         let response = try await AF.request(requestUrl)
-            .serializingData()
+            .serializingDecodable(BeautyContestStats.self)
             .result
             .get()
 
-        return try JSONDecoder().decode(BeautyContestStats.self, from: response)
+        return response
     }
 }
 

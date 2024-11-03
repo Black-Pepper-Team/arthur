@@ -6,6 +6,8 @@ extension BeautyContestView {
 
         @Published var isLoading: Bool = false
 
+        @Published var winner: String = ""
+
         @Published var participants: [BeautyContestParticipant] = [
             .init(name: "Joe Biden", image: StaticImages.testImageBase64)
         ]
@@ -16,6 +18,7 @@ extension BeautyContestView {
                     let participantsState = try await BeautyContest.shared.participants()
 
                     participants = participantsState.participants
+                    winner = participantsState.winner ?? ""
                 } catch {
                     LoggerUtil.common.error("error: \(error)")
                 }
