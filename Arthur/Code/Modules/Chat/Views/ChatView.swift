@@ -1,11 +1,28 @@
 import SwiftUI
 
-struct ChatView: View {
-    @State private var isSettingsShown: Bool = false
+enum ChatRoute: Hashable {
+    case beautyContest
+}
 
+struct ChatView: View {
     @StateObject private var viewModel = ViewModel()
 
+    @State private var isSettingsShown: Bool = false
+
+    @State private var path: [ChatRoute] = []
+
     var body: some View {
+        NavigationStack(path: $path) {
+            content.navigationDestination(for: ChatRoute.self) { route in
+                switch route {
+                case .beautyContest:
+                    VStack {}
+                }
+            }
+        }
+    }
+
+    var content: some View {
         VStack {
             header
             Spacer()
