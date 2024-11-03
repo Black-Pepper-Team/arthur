@@ -14,6 +14,9 @@ extension BeautyContestView {
 
                 do {
                     try await _participate(name)
+
+                    isParticipatingInBeautyContest = true
+                    AppUserDefaults.shared.isParticipatingInBeautyContest = true
                 } catch {
                     LoggerUtil.common.error("error: \(error)")
 
@@ -32,9 +35,6 @@ extension BeautyContestView {
             )
 
             try await BeautyContest.shared.participate(participateRequest)
-
-            AppUserDefaults.shared.isParticipatingInBeautyContest = true
-            isParticipatingInBeautyContest = true
         }
     }
 }
