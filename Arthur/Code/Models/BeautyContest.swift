@@ -51,6 +51,7 @@ struct BeautyContestStats: Codable {
 struct BeautyContestParticipant: Codable {
     let name: String
     let image: String
+    let percentage: Double
 
     var uiimage: UIImage? {
         if let data = Data(base64Encoded: image, options: .ignoreUnknownCharacters) {

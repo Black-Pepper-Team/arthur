@@ -54,10 +54,14 @@ struct BeautyContestParticipatsView: View {
                 Image(systemName: "photo")
                     .padding(.bottom, 5)
             }
-
-            (Text(participant.name) + Text(participant.name == viewModel.winner ? "🥇" : ""))
-                .font(.custom(Fonts.interBold, size: 20))
-                .lineLimit(1)
+            ZStack {
+                (Text(participant.name) + Text(participant.name == viewModel.winner ? "🥇" : ""))
+                    .font(.custom(Fonts.interBold, size: 20))
+                    .lineLimit(1)
+                Text("\(participant.percentage)%")
+                    .align(.leading)
+                    .padding(.horizontal)
+            }
             Divider()
         }
     }
