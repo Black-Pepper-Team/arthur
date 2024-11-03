@@ -5,7 +5,7 @@ struct BeautyContestView: View {
 
     var body: some View {
         VStack {
-            if viewModel.isParticipatingInBeautyContest {
+            if !viewModel.isParticipatingInBeautyContest {
                 BeautyContestParticipatsView()
             } else {
                 BeautyContestParticipatingView()
@@ -22,18 +22,39 @@ struct BeautyContestParticipatsView: View {
         VStack {
             Text("Participants")
                 .font(.custom(Fonts.interBold, size: 35))
-                .padding(.top)
+                .padding(.vertical)
             Spacer()
-            participants
+            participantsView
                 .isLoading(viewModel.participants.isEmpty)
             Spacer()
         }
         .onAppear()
     }
 
-    var participants: some View {
+    var participantsView: some View {
+        ScrollView {
+            VStack {
+                ForEach(viewModel.participants, id: \.name) { participant in
+                    participantView(participant)
+                }
+            }
+        }
+    }
+
+    func participantView(_ participant: BeautyContestParticipant) -> some View {
         VStack {
-            
+            if let uiimage = participant.uiimage {
+                Image(uiImage: uiimage)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 200)
+                    .padding(.bottom, 5)
+            } else {
+                Image(systemName: "photo")
+                    .padding(.bottom, 5)
+            }
+            Text(participant.name)
+                .font(.custom(Fonts.interBold, size: 20))
         }
     }
 }

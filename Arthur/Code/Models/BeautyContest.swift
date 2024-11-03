@@ -1,5 +1,6 @@
 import Alamofire
 import Foundation
+import SwiftUI
 
 class BeautyContest {
     static let shared = BeautyContest()
@@ -50,4 +51,12 @@ struct BeautyContestStats: Codable {
 struct BeautyContestParticipant: Codable {
     let name: String
     let image: String
+
+    var uiimage: UIImage? {
+        if let data = Data(base64Encoded: image, options: .ignoreUnknownCharacters) {
+            return UIImage(data: data)
+        } else {
+            return nil
+        }
+    }
 }

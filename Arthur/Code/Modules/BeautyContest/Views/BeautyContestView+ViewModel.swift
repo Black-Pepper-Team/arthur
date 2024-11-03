@@ -7,7 +7,7 @@ extension BeautyContestView {
         @Published var isLoading: Bool = false
 
         @Published var participants: [BeautyContestParticipant] = [
-            .init(name: "Joe Biden", image: "")
+            .init(name: "Joe Biden", image: StaticImages.testImageBase64)
         ]
 
         func loadParticipants() {
