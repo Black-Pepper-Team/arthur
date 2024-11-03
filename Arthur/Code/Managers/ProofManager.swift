@@ -28,6 +28,7 @@ class ProofManager: ObservableObject {
     func requestProtoProof() async throws -> (ZkProof, String) {
         defer {
             lastResponse = nil
+            UIPasteboard.general.string = ""
         }
 
         let url = URL(string: "rarime://photo?response_url=arthur://response")!

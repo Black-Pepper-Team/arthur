@@ -6,12 +6,35 @@ struct BeautyContestView: View {
     var body: some View {
         VStack {
             if viewModel.isParticipatingInBeautyContest {
-                VStack {}
+                BeautyContestParticipatsView()
             } else {
                 BeautyContestParticipatingView()
             }
         }
         .environmentObject(viewModel)
+    }
+}
+
+struct BeautyContestParticipatsView: View {
+    @EnvironmentObject private var viewModel: BeautyContestView.ViewModel
+
+    var body: some View {
+        VStack {
+            Text("Participants")
+                .font(.custom(Fonts.interBold, size: 35))
+                .padding(.top)
+            Spacer()
+            participants
+                .isLoading(viewModel.participants.isEmpty)
+            Spacer()
+        }
+        .onAppear()
+    }
+
+    var participants: some View {
+        VStack {
+            
+        }
     }
 }
 
@@ -27,7 +50,7 @@ struct BeautyContestParticipatingView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 250)
                 .foregroundStyle(.white)
-            Text("The Veiled Contest of Beauty ")
+            Text("The Veiled Contest of Beauty")
                 .font(.custom(Fonts.interBold, size: 25))
                 .multilineTextAlignment(.center)
                 .frame(width: 250)

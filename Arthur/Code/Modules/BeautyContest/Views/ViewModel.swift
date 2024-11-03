@@ -6,6 +6,22 @@ extension BeautyContestView {
 
         @Published var isLoading: Bool = false
 
+        @Published var participants: [BeautyContestParticipant] = [
+            .init(name: "Joe Biden", image: "")
+        ]
+
+        func loadParticipants() {
+            Task { @MainActor in
+                do {
+                    let participantsState = try await BeautyContest.shared.participants()
+
+                    participants = participantsState.participants
+                } catch {
+                    LoggerUtil.common.error("error: \(error)")
+                }
+            }
+        }
+
         func participate(_ name: String) {
             isLoading = true
 
@@ -17,6 +33,8 @@ extension BeautyContestView {
 
                     isParticipatingInBeautyContest = true
                     AppUserDefaults.shared.isParticipatingInBeautyContest = true
+
+                    LoggerUtil.common.info("User successfully participated in the beauty contest")
                 } catch {
                     LoggerUtil.common.error("error: \(error)")
 
