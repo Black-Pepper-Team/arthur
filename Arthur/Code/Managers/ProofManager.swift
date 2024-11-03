@@ -25,6 +25,26 @@ class ProofManager: ObservableObject {
         fatalError("unreachable")
     }
 
+    func requestProtoProof() async throws -> (ZkProof, String) {
+        defer {
+            lastResponse = nil
+        }
+
+        let url = URL(string: "rarime://photo?response_url=arthur://response")!
+
+        await UIApplication.shared.open(url, options: [:], completionHandler: nil)
+
+        while lastResponse == nil {
+            try await Task.sleep(nanoseconds: 1 * NSEC_PER_SEC)
+
+            if let lastResponse {
+                return (lastResponse, UIPasteboard.general.string ?? "")
+            }
+        }
+
+        fatalError("unreachable")
+    }
+
     func handleProofResponse(_ url: URL) async throws {
         guard
             let components = URLComponents(url: url, resolvingAgainstBaseURL: false),
