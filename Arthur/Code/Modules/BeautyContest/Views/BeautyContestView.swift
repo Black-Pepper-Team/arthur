@@ -59,7 +59,7 @@ struct BeautyContestParticipatsView: View {
                     .font(.custom(Fonts.interBold, size: 20))
                     .lineLimit(1)
                 Text("\(participant.percentage)%")
-                    .align(.leading)
+                    .align(.trailing)
                     .padding(.horizontal)
             }
             Divider()
