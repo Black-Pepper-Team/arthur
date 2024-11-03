@@ -43,9 +43,14 @@ struct BeautyContestParticipantRequest: Codable {
 }
 
 struct BeautyContestStats: Codable {
-    let winner: String?
+    let winner: ContestWinnet?
     let winningPool: Int
     let participants: [BeautyContestParticipant]
+}
+
+struct ContestWinnet: Codable {
+    let name: String
+    let image_hash: String
 }
 
 struct BeautyContestParticipant: Codable {

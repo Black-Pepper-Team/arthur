@@ -18,7 +18,7 @@ extension BeautyContestView {
                     let participantsState = try await BeautyContest.shared.participants()
 
                     participants = participantsState.participants
-                    winner = participantsState.winner ?? ""
+                    winner = participantsState.winner?.name ?? ""
                 } catch {
                     LoggerUtil.common.error("error: \(error)")
                 }
