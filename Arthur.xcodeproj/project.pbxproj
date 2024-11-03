@@ -25,6 +25,8 @@
 		CE3C6C212CD57618000D0481 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C202CD57614000D0481 /* Fonts.swift */; };
 		CE3C6C252CD5781E000D0481 /* CapabilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C242CD5781E000D0481 /* CapabilitiesView.swift */; };
 		CE3CD3B12C6CEBEF008313B8 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CD3B02C6CEBEF008313B8 /* JSONCodable.swift */; };
+		CE60F5A82CD7743A00317982 /* BeautyContestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60F5A72CD7743A00317982 /* BeautyContestView.swift */; };
+		CE60F5AA2CD77B5500317982 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60F5A92CD77B4F00317982 /* ViewModel.swift */; };
 		CE61E8832C24240000940129 /* Semaphore in Frameworks */ = {isa = PBXBuildFile; productRef = CE61E8822C24240000940129 /* Semaphore */; };
 		CE68BE3D2BD9B23D00D92EBB /* ZkProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */; };
 		CE68BE452BD9B6EA00D92EBB /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = CE68BE442BD9B6EA00D92EBB /* Web3 */; };
@@ -91,6 +93,8 @@
 		CE3C6C202CD57614000D0481 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CE3C6C242CD5781E000D0481 /* CapabilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapabilitiesView.swift; sourceTree = "<group>"; };
 		CE3CD3B02C6CEBEF008313B8 /* JSONCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
+		CE60F5A72CD7743A00317982 /* BeautyContestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyContestView.swift; sourceTree = "<group>"; };
+		CE60F5A92CD77B4F00317982 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CE68BE3C2BD9B23D00D92EBB /* ZkProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZkProof.swift; sourceTree = "<group>"; };
 		CE72101D2BD7BD9D0043DB7F /* Data+Utf8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Utf8.swift"; sourceTree = "<group>"; };
 		CE7210282BD7D0D10043DB7F /* String+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hex.swift"; sourceTree = "<group>"; };
@@ -265,6 +269,23 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		CE60F5A52CD7738200317982 /* BeautyContest */ = {
+			isa = PBXGroup;
+			children = (
+				CE60F5A62CD7742F00317982 /* Views */,
+			);
+			path = BeautyContest;
+			sourceTree = "<group>";
+		};
+		CE60F5A62CD7742F00317982 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE60F5A92CD77B4F00317982 /* ViewModel.swift */,
+				CE60F5A72CD7743A00317982 /* BeautyContestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CE778B6F2BA9A73700B26485 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +420,7 @@
 		CE9E82C72BA8852700AAF885 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CE60F5A52CD7738200317982 /* BeautyContest */,
 				CE99CC412CD6760A00245B50 /* Settings */,
 				CE99CC3C2CD6600C00245B50 /* Chat */,
 				CE3C6C222CD57809000D0481 /* Capabilities */,
@@ -540,9 +562,11 @@
 				CE3C6C252CD5781E000D0481 /* CapabilitiesView.swift in Sources */,
 				CE3C6C112CD569AB000D0481 /* IntroView.swift in Sources */,
 				CE99CC442CD6762500245B50 /* SettingsView.swift in Sources */,
+				CE60F5AA2CD77B5500317982 /* ViewModel.swift in Sources */,
 				CEFF68B72CB685C5008769EA /* Data+FindSubarrayIndex.swift in Sources */,
 				5655E42E2BD2C94F00B86C5C /* AppUserDefaults.swift in Sources */,
 				CEA03F0A2C7C7A17002F218A /* View+IsLoading.swift in Sources */,
+				CE60F5A82CD7743A00317982 /* BeautyContestView.swift in Sources */,
 				CE7210292BD7D0D10043DB7F /* String+Hex.swift in Sources */,
 				CE3CD3B12C6CEBEF008313B8 /* JSONCodable.swift in Sources */,
 				CE3C6C152CD5718E000D0481 /* AppButton.swift in Sources */,

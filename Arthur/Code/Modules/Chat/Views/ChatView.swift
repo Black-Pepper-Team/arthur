@@ -1,28 +1,12 @@
 import SwiftUI
 
-enum ChatRoute: Hashable {
-    case beautyContest
-}
-
 struct ChatView: View {
     @StateObject private var viewModel = ViewModel()
 
     @State private var isSettingsShown: Bool = false
-
-    @State private var path: [ChatRoute] = []
+    @State private var isBeautyContestShown: Bool = false
 
     var body: some View {
-        NavigationStack(path: $path) {
-            content.navigationDestination(for: ChatRoute.self) { route in
-                switch route {
-                case .beautyContest:
-                    VStack {}
-                }
-            }
-        }
-    }
-
-    var content: some View {
         VStack {
             header
             Spacer()
@@ -46,6 +30,9 @@ struct ChatView: View {
         .sheet(isPresented: $isSettingsShown) {
             SettingsView()
         }
+        .sheet(isPresented: $isBeautyContestShown) {
+            BeautyContestView()
+        }
         .onAppear {
             AVManager.shared.textToSpeech(text: viewModel.messages.first?.message ?? "")
         }
@@ -58,15 +45,20 @@ struct ChatView: View {
                     Image(Images.shield)
                         .resizable()
                         .renderingMode(.template)
-                        .frame(width: 20, height: 25)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 20)
                     Text("Arthur")
                         .font(.custom(Fonts.interBold, size: 20))
                 }
             }
-            Image(systemName: "gearshape")
-                .align(.trailing)
-                .padding(.trailing)
-                .onTapGesture(perform: { isSettingsShown = true })
+            HStack {
+                Image(systemName: "medal")
+                    .onTapGesture(perform: { isBeautyContestShown = true })
+                Spacer()
+                Image(systemName: "gearshape")
+                    .onTapGesture(perform: { isSettingsShown = true })
+            }
+            .padding(.horizontal)
         }
     }
 

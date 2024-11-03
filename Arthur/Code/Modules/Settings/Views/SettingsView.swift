@@ -29,6 +29,7 @@ struct SettingsView: View {
         AppUserDefaults.shared.userId = ""
         AppUserDefaults.shared.areCapabilitiesShown = true
         AppUserDefaults.shared.lastMessageId = ""
+        AppUserDefaults.shared.isParticipatingInBeautyContest = false
 
         AppManager.shared.isIntroShown = true
         AppManager.shared.areCapabilitiesShown = true

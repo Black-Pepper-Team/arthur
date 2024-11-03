@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-public class AppUserDefaults: ObservableObject {
+public class AppUserDefaults {
     public static let shared = AppUserDefaults()
 
     @AppStorage("user_id")
@@ -15,4 +15,7 @@ public class AppUserDefaults: ObservableObject {
 
     @AppStorage("last_message_id")
     public var lastMessageId: String = ""
+
+    @AppStorage("is_participating_in_beauty_contest")
+    public var isParticipatingInBeautyContest: Bool = false
 }
