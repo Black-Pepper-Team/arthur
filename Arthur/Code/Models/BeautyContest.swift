@@ -17,7 +17,7 @@ class BeautyContest {
             .init(name: "Content-Type", value: "application/json")
         ]
 
-        _ = try await AF.request(requestUrl, method: .post, parameters: request, headers: headers)
+        _ = try await AF.request(requestUrl, method: .post, parameters: request, encoder: JSONParameterEncoder.default, headers: headers)
             .serializingData()
             .result
             .get()
