@@ -44,14 +44,13 @@ struct BeautyContestParticipatingView: View {
             .frame(width: 350, height: 170)
             .padding(.bottom)
             Spacer()
-            AppButton(text: "Participant", action: participant)
-                .frame(width: 350, height: 50)
+            if viewModel.isLoading {
+                ProgressView()
+            } else {
+                AppTextField(placeholder: "Name...", submitText: "Commit", onCommit: viewModel.participate, keyBoardType: .default)
+                    .padding(25)
+            }
         }
-    }
-
-    func participant() {
-        AppUserDefaults.shared.isParticipatingInBeautyContest = true
-        viewModel.isParticipatingInBeautyContest = true
     }
 }
 

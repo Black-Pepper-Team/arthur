@@ -2,7 +2,7 @@ import Alamofire
 import Foundation
 
 class BeautyContest {
-    static let shared = API()
+    static let shared = BeautyContest()
 
     let url: URL
 
