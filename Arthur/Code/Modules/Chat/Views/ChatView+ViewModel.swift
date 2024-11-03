@@ -8,7 +8,8 @@ extension ChatView {
                 userId: "ai",
                 date: Date(),
                 message: "Welcome! How can I help you today?",
-                isError: false
+                isError: false,
+                isPending: false
             )
         ]
 
@@ -18,25 +19,68 @@ extension ChatView {
             listenForMessages()
         }
 
-        func registerResponseMessage(_ message: String) {
+        func registerResponseMessage(_ id: String, _ message: String) {
+            if let messageIndex = messages.firstIndex(where: { $0.id == id }) {
+                var oldMessage = messages[messageIndex]
+                oldMessage.message = message
+                oldMessage.isPending = false
+
+                messages[messageIndex] = oldMessage
+
+                return
+            }
+
             messages.append(.init(
                 id: UUID().uuidString,
                 userId: "ai",
                 date: Date(),
                 message: message,
-                isError: false
+                isError: false,
+                isPending: false
             ))
 
             AVManager.shared.textToSpeech(text: message)
         }
 
-        func registerErrorMessage() {
+        func registerPendingMessage(_ id: String, _ message: String) {
+            if let messageIndex = messages.firstIndex(where: { $0.id == id }) {
+                var oldMessage = messages[messageIndex]
+                oldMessage.message = message
+
+                messages[messageIndex] = oldMessage
+
+                return
+            }
+
             messages.append(.init(
-                id: UUID().uuidString,
+                id: id,
+                userId: "ai",
+                date: Date(),
+                message: message,
+                isError: false,
+                isPending: true
+            ))
+        }
+
+        func registerErrorMessage(_ id: String) {
+            if let messageIndex = messages.firstIndex(where: { $0.id == id }) {
+                var oldMessage = messages[messageIndex]
+                oldMessage.message = "Unexpected error occurred"
+                oldMessage.isError = true
+                oldMessage.isPending = false
+
+                messages[messageIndex] = oldMessage
+
+                return
+            }
+
+            messages.append(.init(
+                id: id,
                 userId: "ai",
                 date: Date(),
                 message: "Unexpected error occurred",
-                isError: true
+                isError: true,
+                isPending: false
             ))
         }
 
@@ -49,7 +93,8 @@ extension ChatView {
                 userId: userId,
                 date: Date(),
                 message: message,
-                isError: false
+                isError: false,
+                isPending: false
             ))
 
             Task { @MainActor in
@@ -95,15 +140,21 @@ extension ChatView {
                         return
                     }
 
-                    registerResponseMessage(message)
+                    registerResponseMessage(response.id, message)
 
                     return
 
                 case .pending:
+                    guard let message = response.message else {
+                        continue
+                    }
+
+                    registerPendingMessage(response.id, message)
+
                     continue
 
                 case .failed:
-                    registerErrorMessage()
+                    registerErrorMessage(response.id)
 
                     return
                 }

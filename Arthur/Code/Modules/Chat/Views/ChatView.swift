@@ -83,10 +83,20 @@ struct MessageView: View {
         message.userId == AppUserDefaults.shared.userId
     }
 
+    var backgroundColor: Color {
+        if message.isError {
+            return .error
+        } else if message.isError {
+            return .yellow
+        } else {
+            return .customAppForeground
+        }
+    }
+
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25)
-                .foregroundStyle(message.isError ? .error : .customAppForeground)
+                .foregroundStyle(backgroundColor)
                 .frame(width: textSize.width + 10, height: textSize.height + 5)
                 .opacity(isSelf ? 0.3 : 1)
             Text(message.message)

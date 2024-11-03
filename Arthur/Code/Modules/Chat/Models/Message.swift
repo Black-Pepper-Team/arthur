@@ -4,8 +4,9 @@ struct Message: Codable, Identifiable {
     let id: String
     let userId: String
     let date: Date
-    let message: String
-    let isError: Bool
+    var message: String
+    var isError: Bool
+    var isPending: Bool
 }
 
 struct SendableMessage: Codable {
@@ -15,6 +16,7 @@ struct SendableMessage: Codable {
 }
 
 struct MessageResponse: Codable {
+    let id: String
     let status: MessageResponseStatus
     let message: String?
 }
