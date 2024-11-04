@@ -22,5 +22,5 @@ struct MessageResponse: Codable {
 }
 
 enum MessageResponseStatus: String, Codable {
-    case ready, pending, failed
+    case ready, pending, processing, failed
 }

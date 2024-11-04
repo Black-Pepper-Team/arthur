@@ -144,7 +144,7 @@ extension ChatView {
 
                     return
 
-                case .pending:
+                case .pending, .processing:
                     guard let message = response.message else {
                         continue
                     }
