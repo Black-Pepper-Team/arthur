@@ -144,13 +144,16 @@ extension ChatView {
 
                     return
 
-                case .pending, .processing:
+                case .processing:
                     guard let message = response.message else {
                         continue
                     }
 
                     registerPendingMessage(response.id, message)
 
+                    continue
+
+                case .pending:
                     continue
 
                 case .failed:
