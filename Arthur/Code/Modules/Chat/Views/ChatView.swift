@@ -110,6 +110,9 @@ struct MessageView: View {
                             .onAppear {
                                 textSize = geometry.size
                             }
+                            .onChange(of: message.message) { _, _ in
+                                textSize = geometry.size
+                            }
                     }
                 )
         }
