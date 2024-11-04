@@ -35,7 +35,7 @@ struct AppView: View {
             do {
                 try await proofManager.handleProofResponse(url)
             } catch {
-                LoggerUtil.common.debug("failed to handle proof response: \(error)")
+                LoggerUtil.common.error("failed to handle proof response: \(error)")
             }
         }
     }
