@@ -35,33 +35,52 @@ struct BeautyContestParticipatsView: View {
         ScrollView {
             VStack {
                 ForEach(viewModel.participants, id: \.name) { participant in
-                    participantView(participant)
+                    PartificipantView(participant: participant)
                         .padding(.bottom)
                 }
             }
         }
     }
+}
 
-    func participantView(_ participant: BeautyContestParticipant) -> some View {
+struct PartificipantView: View {
+    @EnvironmentObject private var viewModel: BeautyContestView.ViewModel
+
+    let participant: BeautyContestParticipant
+
+    var isWinner: Bool { participant.name == viewModel.winner }
+
+    var body: some View {
         VStack {
-            if let uiimage = participant.uiimage {
-                Image(uiImage: uiimage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 200)
-                    .padding(.bottom, 5)
-            } else {
-                Image(systemName: "photo")
-                    .padding(.bottom, 5)
-            }
+            ZStack {
+                RoundedRectangle(cornerRadius: 25)
+                    .frame(width: 350)
+                    .foregroundStyle(isWinner ? .gold : .customAppForeground)
+                    .opacity(isWinner ? 1 : 0.5)
+                VStack {
+                    if let uiimage = participant.uiimage {
+                        Image(uiImage: uiimage)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(height: 200)
+                            .padding(.vertical, 5)
+                    } else {
+                        Image(systemName: "photo")
+                            .padding(.vertical, 5)
+                    }
 
-            (Text(participant.name) + Text(participant.name == viewModel.winner ? "🥇" : ""))
-                .font(.custom(Fonts.interBold, size: 20))
-                .lineLimit(1)
-            Text("\(String(format: "%.1f", participant.percentage))%")
-                .font(.custom(Fonts.interBold, size: 20))
-                .padding(.horizontal)
-                .padding(.top, 5)
+                    (Text(participant.name) + Text(isWinner ? "🥇" : ""))
+                        .font(.custom(Fonts.interBold, size: 20))
+                        .foregroundStyle(isWinner ? .customAppBackground : .white)
+                        .lineLimit(1)
+                    Text("\(String(format: "%.1f", participant.percentage))%")
+                        .font(.custom(Fonts.interBold, size: 20))
+                        .foregroundStyle(isWinner ? .customAppBackground : .white)
+                        .padding(.horizontal)
+                        .padding(.top, 5)
+                }
+                .padding(.vertical)
+            }
             Divider()
         }
     }

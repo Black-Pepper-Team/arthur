@@ -86,8 +86,8 @@ struct MessageView: View {
     var backgroundColor: Color {
         if message.isError {
             return .error
-        } else if message.isError {
-            return .yellow
+        } else if message.isPending {
+            return .gold
         } else {
             return .customAppForeground
         }
