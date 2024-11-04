@@ -5,13 +5,16 @@ class AVManager {
     static let shared = AVManager()
 
     func textToSpeech(text: String) {
-        if !AppUserDefaults.shared.isTextToSpeechEnable {
-            return
-        }
+//        if !AppUserDefaults.shared.isTextToSpeechEnable {
+//            return
+//        }
 
         let voice = AVSpeechSynthesisVoice.speechVoices().first { voice in
-            voice.quality == .enhanced
+            voice.quality == .default
         }
+
+        LoggerUtil.common.debug("voice: \(voice)")
+        LoggerUtil.common.debug("text: \(text)")
 
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = AVSpeechSynthesisVoice(identifier: voice?.identifier ?? "")
