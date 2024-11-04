@@ -27,6 +27,7 @@ struct ChatView: View {
                 .padding(.bottom, 10)
                 .disabled(viewModel.isWaitingForResponse)
         }
+        .frame(width: 375)
         .sheet(isPresented: $isSettingsShown) {
             SettingsView()
         }
