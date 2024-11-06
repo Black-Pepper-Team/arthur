@@ -18,7 +18,7 @@ struct IntroView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 100)
                 .foregroundStyle(.white)
-            Text("Arthur")
+            Text("Chappie")
                 .font(.custom(Fonts.interBold, size: 50))
                 .bold()
                 .foregroundStyle(.white)

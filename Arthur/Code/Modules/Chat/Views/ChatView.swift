@@ -48,13 +48,11 @@ struct ChatView: View {
                         .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 20)
-                    Text("Arthur")
+                    Text("Chappie")
                         .font(.custom(Fonts.interBold, size: 20))
                 }
             }
             HStack {
-                Image(systemName: "medal")
-                    .onTapGesture(perform: { isBeautyContestShown = true })
                 Spacer()
                 Image(systemName: "gearshape")
                     .onTapGesture(perform: { isSettingsShown = true })
